@@ -14,9 +14,10 @@
 
     const changelogModal: ModalSettings = {
         type: 'alert',
-        title: 'Changelog',
+        title: '更新日志',
         body: 
-`1/21/2025: added warning for core-lateral and lateral-core swap in 7.16
+`3/20/2025：添加了中文翻译(add Chinese translation)
+1/21/2025: added warning for core-lateral and lateral-core swap in 7.16
 1/20/2025: added more comprehensive post-swap spots to HealerOut
 1/20/2025: fix idyll C postswap image rotation
 1/19/2025: added idyll/game8 strat - added by kizer
@@ -38,9 +39,9 @@
 <Modal regionBody="max-h-[600px] overflow-auto"/>
 <header class="container h-full mx-auto px-4 mx-auto md:my-12 my-4">
     <div class="flex flex-wrap justify-between items-center">
-        <div class="text-2xl font-semibold">where the f do i go???? (Chaotic)</div>
+        <div class="text-2xl font-semibold">灭暗黑之云之我该去哪里？</div>
         <div class="my-4 md:my-0">
-            <button type="button" on:click="{() => modalStore.trigger(changelogModal)}"class="btn variant-ghost">Changelog</button>
+            <button type="button" on:click="{() => modalStore.trigger(changelogModal)}"class="btn variant-ghost">更新日志</button>
         </div>
     </div>
     
@@ -52,12 +53,13 @@
 <footer class="md:sticky bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
     <div class="flex w-full max-w-screen-xl mx-auto justify-between">
 		<div class="text-sm text-gray-500 dark:text-gray-400">
-            <div>Comments? Questions? Something incorrect? <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://docs.google.com/forms/d/e/1FAIpQLScJEJ43FKjSRJ2MyLuGXznce-P_SQNyPLWga_Xme_CJKPiQIQ/viewform?usp=header">Let me know.</a></div>
+            <div>原作者的 <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://docs.google.com/forms/d/e/1FAIpQLScJEJ43FKjSRJ2MyLuGXznce-P_SQNyPLWga_Xme_CJKPiQIQ/viewform?usp=header">反馈表格</a></div>
             <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
         </div>
         <div class="text-sm text-gray-500 dark:text-gray-400 text-end">
-            <div>Made by Mara Kaminagi @ Adamantoise</div>
-            <div>You can find me on <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bsky.app/profile/shittyidiot.com">Bluesky</a> or <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://x.com/mczub">Twitter</a></div>
+            <div>原作者： Mara Kaminagi @ Adamantoise</div>
+            <div>联系方式： <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bsky.app/profile/shittyidiot.com">Bluesky</a> 或者 <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://x.com/mczub">Twitter</a></div>
+            <div>汉化： Ananananan Ning @ Twintania / 宁安 @ 紫水栈桥</div>
         </div>
     </div>
 </footer>

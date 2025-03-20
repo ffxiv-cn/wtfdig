@@ -47,70 +47,70 @@ interface Strat {
 const raidplanStrat: Strat = {
     stratName: 'raidplan',
     stratUrl: 'https://raidplan.io/plan/o1ZfvSL3dCiqjwfJ',
-    description: 'Taken from Raidplan by Aurelia Netcash',
+    description: '来自Aurelia Netcash的Raidplan',
     notes: '',
     strats: [
         {
             alliance: 'A',
             role: 'Tank',
             party: 1,
-            notes: 'Left/West platform, Face boss North',
+            notes: '左右平台都拉BOSS朝向正北',
             startingArea: 'Platform',
             strats: [
                 {
-                    mechanic: 'pairs',
-                    description: 'Inner\nNorth\nw/ Melee 1',
+                    mechanic: '分摊',
+                    description: '目标圈内 和D1一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57.8% 31.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: 'spread',
-                    description: 'North',
+                    mechanic: '分散',
+                    description: '正北',
                     imageUrl: './strats/raidplan/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 57.8% 19.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: 'towers',
-                    description: 'North/East',
+                    mechanic: '踩塔',
+                    description: '北/东',
                     imageUrl: './strats/raidplan/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 55.4% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 67% 78.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: 'bramble',
-                    description: 'None, stay on boss',
+                    mechanic: '引导种子',
+                    description: '不引导，站小云妈脚下',
                     imageUrl: './strats/raidplan/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 40% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
                 {
-                    mechanic: 'aoes',
-                    description: 'Platform Inside North',
+                    mechanic: '分散',
+                    description: '平台靠北的内侧',
                     imageUrl: './strats/raidplan/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 78% 36%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: 'swap',
-                    description: 'Outside North',
+                    mechanic: '换线',
+                    description: '外侧北方',
                     imageUrl: './strats/raidplan/platform-west-swap.png',
                     mask: 'radial-gradient(circle at 24% 26%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NE or SE tiles! Now what?",
+            swapNote: "我换到了华容道的东北或者西北角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'idle',
-                    description: 'NE/SE west of corner tile',
+                    mechanic: '基础站位',
+                    description: '华正方形的角所在格子的西侧',
                     imageUrl: './strats/raidplan/tiles-east-idle.png',
                     mask: 'radial-gradient(circle at 30.8% 20.6%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 32% 79.5%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'wild charge',
-                    description: 'NE/SE corner tile',
+                    mechanic: '分摊',
+                    description: '正方形的角所在格子的格子上',
                     imageUrl: './strats/raidplan/tiles-east-wc.png',
                     mask: 'radial-gradient(circle at 48.8% 21.6%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 48% 80%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'chaser',
-                    description: 'CCW of corner tile',
+                    mechanic: '潜地炮预站位',
+                    description: '正方形的角所在格子的逆时针方向',
                     imageUrl: './strats/raidplan/tiles-east-chasers.png',
                     mask: 'radial-gradient(circle at 28% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 52% 67%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },

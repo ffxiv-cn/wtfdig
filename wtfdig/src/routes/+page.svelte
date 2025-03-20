@@ -37,24 +37,24 @@
 	<div class="container">
 		<div class="flex flex-wrap min-w-full justify-between mb-8">
 			<div class="space-y-5 v-full">
-				<aside class="alert variant-ghost-error">
+<!-- 				<aside class="alert variant-ghost-error">
 					<div class="alert-message">
 						<p>As of Patch 7.16, "Lateral-core Phaser" and "Core-lateral Phaser" have been swapped</p>
 						<p>Lateral-core Phaser = Front is safe, then sides are safe</p>
 						<p>Core-lateral Phaser = Sides are safe, then front is safe</p>
 					</div>
-				</aside>
+				</aside> -->
 				<div>
-					<h2>Which strat are you using?</h2>
+					<h2>你用哪个打法？</h2>
 					<RadioGroup>
-						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan (Aurelia/wfJ/o1Z)</RadioItem>
+						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'codcar'}>CODCAR</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'healerout'}>HealerOut</RadioItem>
-						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>Idyll/game8</RadioItem>
+						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>game8</RadioItem>
 					</RadioGroup>
 				</div>
 				<div>
-					<h2>Which alliance are you in?</h2>
+					<h2>你在哪个队伍？</h2>
 					<RadioGroup>
 						<RadioItem bind:group={alliance} name="alliance" value={'A'}>A</RadioItem>
 						<RadioItem bind:group={alliance} name="alliance" value={'B'}>B</RadioItem>
@@ -62,19 +62,19 @@
 					</RadioGroup>
 				</div>
 				<div>
-					<h2>Which role are you?</h2>
+					<h2>你打什么位置？</h2>
 					<RadioGroup>
-						<RadioItem bind:group={role} name="role" value={'Tank'}>Tank</RadioItem>
-						<RadioItem bind:group={role} name="role" value={'Healer'}>Healer</RadioItem>
-						<RadioItem bind:group={role} name="role" value={'Melee'}>Melee</RadioItem>
-						<RadioItem bind:group={role} name="role" value={'Ranged'}>Ranged</RadioItem>
+						<RadioItem bind:group={role} name="role" value={'Tank'}>坦克</RadioItem>
+						<RadioItem bind:group={role} name="role" value={'Healer'}>治疗</RadioItem>
+						<RadioItem bind:group={role} name="role" value={'Melee'}>近战</RadioItem>
+						<RadioItem bind:group={role} name="role" value={'Ranged'}>远程</RadioItem>
 					</RadioGroup>
 				</div>
 				<div>
-					<h2>Which light party are you in?</h2>
+					<h2>你在MT组还是ST组？</h2>
 					<RadioGroup>
-						<RadioItem bind:group={party} name="party" value={1}>1</RadioItem>
-						<RadioItem bind:group={party} name="party" value={2}>2</RadioItem>
+						<RadioItem bind:group={party} name="party" value={1}>MT组(MT H1 D1 D3)</RadioItem>
+						<RadioItem bind:group={party} name="party" value={2}>ST组(ST H2 D2 D4)</RadioItem>
 					</RadioGroup>
 				</div>
 			</div>
@@ -129,9 +129,9 @@
 				{#if strat.strats.some(strat => strat.alignmentTransforms)}
 					<div class="content-center">
 						<RadioGroup>
-							<RadioItem bind:group={alignment} name="alignment" value={"original"}>Original</RadioItem>
-							<RadioItem bind:group={alignment} name="alignment" value={"truenorth"}>True North</RadioItem>
-							<RadioItem bind:group={alignment} name="alignment" value={"addrelative"}>Wall Relative</RadioItem>
+							<RadioItem bind:group={alignment} name="alignment" value={"original"}>攻略原始</RadioItem>
+							<RadioItem bind:group={alignment} name="alignment" value={"truenorth"}>真北基准</RadioItem>
+							<RadioItem bind:group={alignment} name="alignment" value={"addrelative"}>场外基准</RadioItem>
 						</RadioGroup>
 					</div>
 				{/if}
