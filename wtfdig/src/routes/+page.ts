@@ -1293,7 +1293,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标环外 东侧\n和内场换出来的DPS一组',
+                    description: '目标环外 东侧\n和D3一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 70% 53%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1338,7 +1338,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 西侧\n和D3一组',
+                    description: '目标圈外 西侧\n和内场换出来的DPS一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 28% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -1356,7 +1356,7 @@ const raidplanStrat: Strat = {
 const codcarStrat: Strat = {
     stratName: 'codcar',
     stratUrl: 'https://docs.google.com/presentation/d/1SM88CrlJC1cF1gSbNRjn1v26QmDbmKV2yyGJZaGLRnE/preview?slide=id.g321eb6ebf82_10_0',
-    description: 'Taken from CODCAR by RADAR',
+    description: '来自RADAR的CODCAR打法',
     notes: 'All platform add-related mechanics are Wall/Add Relative',
     strats: [
         {
@@ -2908,7 +2908,7 @@ const codcarStrat: Strat = {
 const healerOutStrat: Strat = {
     stratName: 'healerout',
     stratUrl: 'https://docs.google.com/presentation/d/1TRqF03mJQNoYTibS0X1tURwyZTjghTUWnoF8c_r_tEA',
-    description: "Taken from HealerOutCAR by Jake Hale",
+    description: "来自Jake Hale的HealerOut打法",
     notes: '',
     strats: [
         {
@@ -4282,14 +4282,14 @@ const idyllStrat: Strat = {
         kanatan: 'http://kanatan.info/archives/38822195.html',
         raidplan: 'https://raidplan.io/plan/BBhK6qoMdxoGX_0C',
     },
-    description: 'Taken from the post by @idyllshireinfo',
+    description: '来自@idyllshireinfo的打法',
     notes: '东西平台都是以场外为12点; THD的顺序不适用于华容道内的放种子',
     strats: [
         {
             alliance: 'A',
             role: 'Tank',
             party: 1,
-            notes: '东西平台上，拉boss朝场外，以场外作为12点| MT',
+            notes: '左侧/西侧平台上，拉boss朝场外，以场外作为12点| MT',
             startingArea: 'Platform',
             strats: [
                 {

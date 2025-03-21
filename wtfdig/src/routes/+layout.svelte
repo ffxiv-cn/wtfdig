@@ -39,7 +39,7 @@
 <Modal regionBody="max-h-[600px] overflow-auto"/>
 <header class="container h-full mx-auto px-4 mx-auto md:my-12 my-4">
     <div class="flex flex-wrap justify-between items-center">
-        <div class="text-2xl font-semibold">灭暗黑之云之我该去哪里？</div>
+        <div class="text-2xl font-semibold">灭暗黑之云：我该去哪里？</div>
         <div class="my-4 md:my-0">
             <button type="button" on:click="{() => modalStore.trigger(changelogModal)}"class="btn variant-ghost">更新日志</button>
         </div>
@@ -53,13 +53,21 @@
 <footer class="md:sticky bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
     <div class="flex w-full max-w-screen-xl mx-auto justify-between">
 		<div class="text-sm text-gray-500 dark:text-gray-400">
-            <div>原作者的<a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://docs.google.com/forms/d/e/1FAIpQLScJEJ43FKjSRJ2MyLuGXznce-P_SQNyPLWga_Xme_CJKPiQIQ/viewform?usp=header">反馈表格</a></div>
-            <div>汉化反馈请到<a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="">NGA帖子</a>回复</div>
+            <div>
+                原作者的
+                <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://docs.google.com/forms/d/e/1FAIpQLScJEJ43FKjSRJ2MyLuGXznce-P_SQNyPLWga_Xme_CJKPiQIQ/viewform?usp=header">
+                    反馈表格
+                </a>
+                ，汉化反馈请到
+                <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="">
+                    NGA帖子
+                </a>
+                回复
+            </div>
             <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
         </div>
         <div class="text-sm text-gray-500 dark:text-gray-400 text-end">
-            <div>原作者：Mara Kaminagi @ Adamantoise</div>
-            <div>原作者联系方式：<a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bsky.app/profile/shittyidiot.com">Bluesky</a> 或者 <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://x.com/mczub">Twitter</a></div>
+            <div>原作者：Mara Kaminagi @ Adamantoise 联系方式：<a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bsky.app/profile/shittyidiot.com">Bluesky</a> 或者 <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://x.com/mczub">Twitter</a></div>
             <div>汉化： Ananananan Ning @ Twintania | 宁安 @ 紫水栈桥</div>
         </div>
     </div>
