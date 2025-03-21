@@ -59,7 +59,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 北侧 和D1一组',
+                    description: '目标圈内 北侧\n和D1一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57.8% 31.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -146,7 +146,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 北侧 和A队D1一组',
+                    description: '目标圈内 北侧\n和A队D1一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 47% 34.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -167,7 +167,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 南侧 和D2一组',
+                    description: '目标圈内 南侧\n和D2一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 56% 68%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -197,7 +197,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '外侧中间',
+                    description: '平台外侧中间',
                     imageUrl: './strats/raidplan/platform-west-swap.png',
                     mask: 'radial-gradient(circle at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -254,7 +254,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 南侧 和A队D2一组',
+                    description: '目标圈内 南侧\n和A队D2一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 46% 69%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -275,7 +275,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 北侧 和T一组',
+                    description: '目标圈外 北侧\n和T一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57.8% 18.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -320,7 +320,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 北侧 和T一组',
+                    description: '目标圈外 北侧\n和T一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 47% 22.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -341,7 +341,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 南侧 和奶一组',
+                    description: '目标圈外 南侧\n和奶一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57% 80%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -386,7 +386,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 南侧 和奶一组',
+                    description: '目标圈外 南侧\n和奶一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 46% 81%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -407,7 +407,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 西侧 和D4一组',
+                    description: '目标圈内 西侧\n和D4一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 41% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -473,7 +473,7 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 西侧 和D3一组',
+                    description: '目标圈外 西侧\n和D3一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 28% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -518,7 +518,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标环外 东侧 和内场换出来的DPS一组',
+                    description: '目标环外 东侧\n和内场换出来的DPS一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 70% 53%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -539,13 +539,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW inner tile',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-northwest-idle.png',
                     mask: 'radial-gradient(circle at 79% 53%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'NW inner tile',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-northwest-swap.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -554,7 +554,7 @@ const raidplanStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 北侧 和A队D1一组',
+                    description: '目标圈内 北侧\n和A队D1一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 47% 34.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -581,13 +581,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-northeast-idle.png',
                     mask: 'radial-gradient(circle at 21% 54%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'NE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-northeast-swap.png',
                     mask: 'radial-gradient(circle at 18% 51%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -602,7 +602,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 北侧 和C队D1一组',
+                    description: '目标圈内 北侧\n和C队D1一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57.8% 31.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -623,13 +623,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-northwest-idle.png',
                     mask: 'radial-gradient(circle at 21% 53%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'NW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-northwest-swap.png',
                     mask: 'radial-gradient(circle at 20% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -644,7 +644,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 南侧 和A队D2一组',
+                    description: '目标圈内 南侧\n和A队D2一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 46% 69%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -665,13 +665,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-northeast-idle.png',
                     mask: 'radial-gradient(circle at 81% 54%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'NE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-northeast-swap.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -686,7 +686,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 南侧 和C队D2一组',
+                    description: '目标圈内 南侧\n和C队D2一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 56% 68%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -707,13 +707,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/raidplan/tiles-northwest-idle.png',
                     mask: 'radial-gradient(circle at 51% 24%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'NW between Tank and Healer',
+                    description: '正方形的顶点格子上',
                     imageUrl: './strats/raidplan/tiles-northwest-swap.png',
                     mask: 'radial-gradient(circle at 51% 50%, black 26%, rgba(0, 0, 0, 0.4) 26%)'
                 },
@@ -729,7 +729,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 东侧 和A队D4一组',
+                    description: '目标圈内 东侧\n和A队D4一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 60% 53%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -750,13 +750,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NE North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/raidplan/tiles-northeast-idle.png',
                     mask: 'radial-gradient(circle at 51% 26%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'NE between Tank and Healer',
+                    description: '正方形的顶点格子上',
                     imageUrl: './strats/raidplan/tiles-northeast-swap.png',
                     mask: 'radial-gradient(circle at 50% 52%, black 26%, rgba(0, 0, 0, 0.4) 26%)'
                 },
@@ -772,7 +772,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 西侧 和C队D4一组',
+                    description: '目标圈内 西侧\n和C队D4一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 41% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -793,13 +793,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SW South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/raidplan/tiles-southwest-idle.png',
                     mask: 'radial-gradient(circle at 50% 81%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'SW between Tank and Healer',
+                    description: '正方形的顶点格子上',
                     imageUrl: './strats/raidplan/tiles-southwest-swap.png',
                     mask: 'radial-gradient(circle at 50% 50%, black 28%, rgba(0, 0, 0, 0.4) 28%)'
                 },
@@ -815,7 +815,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 东侧 和A队D4一组',
+                    description: '目标圈内 东侧\n和A队D4一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 60% 53%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -836,13 +836,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SE South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/raidplan/tiles-southeast-idle.png',
                     mask: 'radial-gradient(circle at 50% 81%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'SE between Tank and Healer',
+                    description: '正方形的顶点格子上',
                     imageUrl: './strats/raidplan/tiles-southeast-swap.png',
                     mask: 'radial-gradient(circle at 50% 50%, black 28%, rgba(0, 0, 0, 0.4) 28%)'
                 },
@@ -858,7 +858,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 西侧 和C队D4一组',
+                    description: '目标圈内 西侧\n和C队D4一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 41% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -879,13 +879,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Inner\nNorth\nw/ Melee 1',
+                    description: '目标圈内 北侧\n和D1一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 47% 34.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'North',
+                    description: '北',
                     imageUrl: './strats/raidplan/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 36% 19%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -897,7 +897,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/raidplan/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 62% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -914,17 +914,17 @@ const raidplanStrat: Strat = {
                     mask: 'radial-gradient(circle at 78% 32%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW/SW east of corner tile',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-west-idle.png',
                     mask: 'radial-gradient(circle at 75% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 77% 80%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'NW/SW corner tile',
+                    description: '正方形的顶点格子上',
                     imageUrl: './strats/raidplan/tiles-west-wc.png',
                     mask: 'radial-gradient(circle at 60% 24%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 60% 76%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
@@ -945,13 +945,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-southeast-idle.png',
                     mask: 'radial-gradient(circle at 21% 53%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'SE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-southeast-swap.png',
                     mask: 'radial-gradient(circle at 19% 51%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -966,7 +966,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 北侧 和C队D1一组',
+                    description: '目标圈内 北侧\n和C队D1一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57.8% 31.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -982,18 +982,18 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Healer',
             party: 1,
-            notes: 'Right/East platform, Boss faces North',
+            notes: '右侧/东侧平台，以真北为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Inner\nSouth\nw/ Melee 2',
+                    description: '目标圈内 南侧\n和D2一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 46% 69%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'South',
+                    description: '南',
                     imageUrl: './strats/raidplan/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 37% 81%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1005,7 +1005,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/raidplan/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 62% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -1017,28 +1017,28 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside Middle',
+                    description: '平台外侧中间',
                     imageUrl: './strats/raidplan/platform-east-swap.png',
                     mask: 'radial-gradient(circle at 78% 55%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW/SW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-west-idle.png',
                     mask: 'radial-gradient(circle at 28% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 29% 80%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'NW/SW West cubby\nTuck in!',
+                    description: '正方形的顶点格子的西侧 靠近T!',
                     imageUrl: './strats/raidplan/tiles-west-wc.png',
                     mask: 'radial-gradient(circle at 36% 19%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 38% 82%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: 'NW/SW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/raidplan/tiles-west-chasers.png',
                     mask: 'radial-gradient(circle at 29% 20.6%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 29% 79%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
@@ -1053,13 +1053,13 @@ const raidplanStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-southeast-idle.png',
                     mask: 'radial-gradient(circle at 78% 53%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'SE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/raidplan/tiles-southeast-swap.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -1074,7 +1074,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内 南侧 和C队D2一组',
+                    description: '目标圈内 南侧\n和C队D2一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 56% 68%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1090,18 +1090,18 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 1,
-            notes: 'Right/East platform, Boss faces North',
+            notes: '右侧/东侧平台，以真北为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 北侧 和T一组',
+                    description: '目标圈外 北侧\n和T一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 47% 22.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'NNE',
+                    description: '东北偏北',
                     imageUrl: './strats/raidplan/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 53% 21%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1140,7 +1140,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 北侧 和T一组',
+                    description: '目标圈外 北侧\n和T一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57.8% 18.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1156,18 +1156,18 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 2,
-            notes: 'Right/East platform, Boss faces North',
+            notes: '右侧/东侧平台，以真北为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 南侧 和奶一组',
+                    description: '目标圈外 南侧\n和奶一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 46% 81%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'SSE',
+                    description: '东南偏南',
                     imageUrl: './strats/raidplan/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 58% 80%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1206,7 +1206,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 南侧 和奶一组',
+                    description: '目标圈外 南侧\n和奶一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 57% 80%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
@@ -1222,18 +1222,18 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 1,
-            notes: 'Right/East platform, Boss faces North',
+            notes: '右侧/东侧平台，以真北为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Inner\nEast\nw/ Ranged',
+                    description: '目标圈内 东侧\n和D4一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 60% 53%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'ENE',
+                    description: '东北偏东',
                     imageUrl: './strats/raidplan/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 64% 40%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -1262,23 +1262,23 @@ const raidplanStrat: Strat = {
                     mask: 'radial-gradient(circle at 77% 79%, black 13%, rgba(0, 0, 0, 0.4) 13%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW North cubby\nSW South cubby',
+                    description: '正方形顶点格子北/南的格子',
                     imageUrl: './strats/raidplan/tiles-west-idle.png',
                     mask: 'radial-gradient(circle at 52% 9%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 52% 92%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'NW North cubby\nSW South cubby\nTuck in!',
+                    description: '正方形顶点格子北/南的格子 靠近T!',
                     imageUrl: './strats/raidplan/tiles-west-wc.png',
                     mask: 'radial-gradient(circle at 49% 14%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 49% 87%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: 'NW North cubby\nSW South cubby',
+                    description: '正方形顶点格子北/南的格子',
                     imageUrl: './strats/raidplan/tiles-west-chasers.png',
                     mask: 'radial-gradient(circle at 52% 9%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 52% 92%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
@@ -1288,18 +1288,18 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 2,
-            notes: 'Right/East platform, Boss faces North',
+            notes: '右侧/东侧平台，以真北为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标环外 东侧 和内场换出来的DPS一组',
+                    description: '目标环外 东侧\n和内场换出来的DPS一组',
                     imageUrl: './strats/raidplan/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 70% 53%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'ESE',
+                    description: '东南偏东',
                     imageUrl: './strats/raidplan/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 65% 59%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -1338,7 +1338,7 @@ const raidplanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外 西侧 和D3一组',
+                    description: '目标圈外 西侧\n和D3一组',
                     imageUrl: './strats/raidplan/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 28% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
@@ -1363,7 +1363,7 @@ const codcarStrat: Strat = {
             alliance: 'A',
             role: 'Tank',
             party: 1,
-            notes: 'Left/West platform, Face boss Outside',
+            notes: '左侧/西侧平台，拉boss朝向场外',
             startingArea: 'Platform',
             strats: [
                 {
@@ -1401,7 +1401,7 @@ const codcarStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/codcar/platform-brambles.png',
                     mask: 'radial-gradient(circle at 44% 60%, black 16%, rgba(0, 0, 0, 0.4) 16%)',
                     transform: 'rotate(90deg)',
@@ -1429,7 +1429,7 @@ const codcarStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside Middle',
+                    description: '平台外侧中间',
                     imageUrl: './strats/codcar/platform-west-swap.png',
                     mask: 'radial-gradient(circle at 28% 50%, black 19%, rgba(0, 0, 0, 0.4) 19%)',
                     alignmentTransforms: {
@@ -1444,7 +1444,7 @@ const codcarStrat: Strat = {
             alliance: 'A',
             role: 'Tank',
             party: 2,
-            notes: 'Right/East platform, Face boss Outside',
+            notes: '右侧/东侧平台，拉boss朝向场外',
             startingArea: 'Platform',
             strats: [
                 {
@@ -1482,7 +1482,7 @@ const codcarStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/codcar/platform-brambles.png',
                     mask: 'radial-gradient(circle at 44% 60%, black 16%, rgba(0, 0, 0, 0.4) 16%)',
                     transform: 'rotate(180deg)',
@@ -1510,7 +1510,7 @@ const codcarStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside Middle',
+                    description: '平台外侧中间',
                     imageUrl: './strats/codcar/platform-east-swap.png',
                     mask: 'radial-gradient(circle at 72% 51%, black 16%, rgba(0, 0, 0, 0.4) 16%)',
                     alignmentTransforms: {
@@ -1724,7 +1724,7 @@ const codcarStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/codcar/platform-brambles.png',
                     mask: 'radial-gradient(circle at 52% 38%, black 16%, rgba(0, 0, 0, 0.4) 16%)',
                     alignmentTransforms: {
@@ -1804,7 +1804,7 @@ const codcarStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/codcar/platform-brambles.png',
                     mask: 'radial-gradient(circle at 52% 38%, black 16%, rgba(0, 0, 0, 0.4) 16%)',
                     transform: 'rotate(180deg)',
@@ -2013,7 +2013,7 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW inner tile',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/codcar/tiles-northwest-idle.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -2109,7 +2109,7 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/codcar/tiles-northwest-idle.png',
                     mask: 'radial-gradient(circle at 17% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -2205,13 +2205,13 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NW North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/codcar/tiles-northwest-idle.png',
                     mask: 'radial-gradient(circle at 49% 19%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'NW North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/codcar/tiles-northwest-wc.png',
                     mask: 'radial-gradient(circle at 45% 27%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -2253,13 +2253,13 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SW South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/codcar/tiles-southwest-idle.png',
                     mask: 'radial-gradient(circle at 49% 82%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'SW South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/codcar/tiles-southwest-wc.png',
                     mask: 'radial-gradient(circle at 49% 67%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -2461,7 +2461,7 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/codcar/tiles-northeast-idle.png',
                     mask: 'radial-gradient(circle at 21% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -2509,7 +2509,7 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/codcar/tiles-southeast-idle.png',
                     mask: 'radial-gradient(circle at 20% 51%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -2557,7 +2557,7 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/codcar/tiles-northeast-idle.png',
                     mask: 'radial-gradient(circle at 83% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -2605,7 +2605,7 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/codcar/tiles-southeast-idle.png',
                     mask: 'radial-gradient(circle at 82% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -2653,13 +2653,13 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'NE North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/codcar/tiles-northeast-idle.png',
                     mask: 'radial-gradient(circle at 49% 19%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'NE North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/codcar/tiles-northeast-wc.png',
                     mask: 'radial-gradient(circle at 56% 27%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -2701,13 +2701,13 @@ const codcarStrat: Strat = {
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: 'SE South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/codcar/tiles-southeast-idle.png',
                     mask: 'radial-gradient(circle at 49% 82%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: 'SE South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/codcar/tiles-southeast-wc.png',
                     mask: 'radial-gradient(circle at 55% 68%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -2938,7 +2938,7 @@ const healerOutStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/healerout/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 40% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3192,7 +3192,7 @@ const healerOutStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/healerout/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 40% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3238,7 +3238,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'SW South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/healerout/tiles-southwest.png',
                     mask: 'radial-gradient(circle at 49.7% 76.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3323,7 +3323,7 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: 'start',
-                    description: 'NE/SE East cubby\nIf the swap puts you in North/South cubby, that\'s fine too.',
+                    description: 'NE/正方形的顶点格子的东侧\nIf the swap puts you in North/South cubby, that\'s fine too.',
                     imageUrl: './strats/healerout/postswap-a-tiles-east.png',
                     mask: 'radial-gradient(circle at 81.5% 20.5%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 82.7% 78.2%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
@@ -3394,7 +3394,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'NW inner tile',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/healerout/tiles-northwest.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3440,7 +3440,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'NE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/healerout/tiles-northeast.png',
                     mask: 'radial-gradient(circle at 24.9% 51.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3624,7 +3624,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'NW North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/healerout/tiles-northwest.png',
                     mask: 'radial-gradient(circle at 49.1% 19.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3670,7 +3670,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'NE North cubby',
+                    description: '正方形的顶点格子的北侧',
                     imageUrl: './strats/healerout/tiles-northeast.png',
                     mask: 'radial-gradient(circle at 52% 20%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3716,7 +3716,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'NW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/healerout/tiles-northwest.png',
                     mask: 'radial-gradient(circle at 19.8% 48.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3762,7 +3762,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'NE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/healerout/tiles-northeast.png',
                     mask: 'radial-gradient(circle at 81.5% 49.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -3826,7 +3826,7 @@ const healerOutStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/healerout/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 62.7% 51%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3843,11 +3843,11 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(ellipse 100% 250% at 84.2% 53.3%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: 'start',
-                    description: 'NW/SW east of corner tile',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/healerout/postswap-c-tiles-west.png',
                     mask: 'radial-gradient(circle at 75.3% 21.1%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 76.1% 79.9%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
@@ -3872,7 +3872,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'SE inner tile',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/healerout/tiles-southeast.png',
                     mask: 'radial-gradient(circle at 21% 48%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -4080,7 +4080,7 @@ const healerOutStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/healerout/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 62.7% 51%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -4097,7 +4097,7 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(ellipse 100% 250% at 84.2% 53.3%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: 'start',
@@ -4126,7 +4126,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'SE South cubby',
+                    description: '正方形的顶点格子的南侧',
                     imageUrl: './strats/healerout/tiles-southeast.png',
                     mask: 'radial-gradient(circle at 49.6% 80.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -4207,11 +4207,11 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(ellipse 100% 250% at 84.2% 53.3%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: 'start',
-                    description: 'NW/SW West cubby\nIf the swap puts you in North/South cubby, that\'s fine too.',
+                    description: '正方形的顶点格子的西侧\nIf the swap puts you in North/South cubby, that\'s fine too.',
                     imageUrl: './strats/healerout/postswap-c-tiles-west.png',
                     mask: 'radial-gradient(circle at 23.1% 20.9%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 23.6% 79.4%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
@@ -4221,7 +4221,7 @@ const healerOutStrat: Strat = {
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: 'NW/SW West cubby',
+                    description: '正方形的顶点格子的西侧',
                     imageUrl: './strats/healerout/tiles-west-chasers.png',
                     mask: 'radial-gradient(circle at 13.3% 20.7%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 13.5% 78.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -4236,7 +4236,7 @@ const healerOutStrat: Strat = {
             strats: [
                 {
                     mechanic: 'start',
-                    description: 'SE East cubby',
+                    description: '正方形的顶点格子的东侧',
                     imageUrl: './strats/healerout/tiles-southeast.png',
                     mask: 'radial-gradient(circle at 79.2% 49.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
@@ -4312,7 +4312,7 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/idyll/brambles-w.png',
                     mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -4592,7 +4592,7 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/idyll/brambles-w.png',
                     mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -5409,7 +5409,7 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/idyll/brambles-w.png',
                     transform: 'rotate(180deg)',
                     mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
@@ -5427,17 +5427,17 @@ const idyllStrat: Strat = {
                     mask: 'radial-gradient(circle at 72% 48%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '基础站位',
-                    description: 'Both 2 tiles east to NW/SW corner tile',
+                    description: 'Both 2 tiles east to 正方形的顶点格子上',
                     imageUrl: './strats/idyll/overall.png',
                     mask: 'radial-gradient(circle at 40% 22%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 40% 77%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
                 },
                 {
                     mechanic: '分摊',
-                    description: '1 tile east to NW/SW corner tile',
+                    description: '1 tile east to 正方形的顶点格子上',
                     imageUrl: './strats/idyll/wild-charge-tiles.png',
                     mask: 'radial-gradient(circle at 27.8% 21.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 29% 82%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
@@ -5639,11 +5639,11 @@ const idyllStrat: Strat = {
                     mask: 'radial-gradient(circle at 73% 51%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '基础站位',
-                    description: 'North from NW/SW corner tile',
+                    description: 'North from 正方形的顶点格子上',
                     imageUrl: './strats/idyll/overall.png',
                     mask: 'radial-gradient(circle at 29% 17%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 29% 60%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
                 },
@@ -5697,7 +5697,7 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '引导种子',
-                    description: 'None, stay on boss',
+                    description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/idyll/brambles-w.png',
                     transform: 'rotate(180deg)',
                     mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
@@ -5715,11 +5715,11 @@ const idyllStrat: Strat = {
                     mask: 'radial-gradient(circle at 71% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
                 },
             ],
-            swapNote: "I got a clean swap to the NW or SW tiles! Now what?",
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '基础站位',
-                    description: 'South from NW/SW corner tile',
+                    description: 'South from 正方形的顶点格子上',
                     imageUrl: './strats/idyll/overall.png',
                     mask: 'radial-gradient(circle at 28% 38%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 28% 82%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
                 },
