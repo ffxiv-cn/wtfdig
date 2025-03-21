@@ -121,7 +121,7 @@
 				</div>
 				<div class="grow"></div>
 				<div class="content-center">
-					<SlideToggle name="spotlight-toggle" bind:checked={spotlight}>Highlight my spots</SlideToggle>
+					<SlideToggle name="spotlight-toggle" bind:checked={spotlight}>高亮我的位置</SlideToggle>
 				</div>
 			</div>
 			<div class="flex flex-wrap items-center justify-between my-4">
