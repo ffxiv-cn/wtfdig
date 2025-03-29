@@ -59,7 +59,7 @@
                     反馈表格
                 </a>
                 ，汉化反馈请到
-                <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="">
+                <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bbs.nga.cn/read.php?tid=43666710">
                     NGA帖子
                 </a>
                 回复
