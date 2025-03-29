@@ -120,7 +120,7 @@ const raidplanStrat: Strat = {
             alliance: 'A',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -228,7 +228,7 @@ const raidplanStrat: Strat = {
             alliance: 'A',
             role: 'Healer',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -534,7 +534,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Tank',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -576,7 +576,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -618,7 +618,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Healer',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -660,7 +660,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Healer',
             party: 2,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -702,7 +702,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -745,7 +745,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 2,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -788,7 +788,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Ranged',
             party: 1,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -831,7 +831,7 @@ const raidplanStrat: Strat = {
             alliance: 'B',
             role: 'Ranged',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -940,7 +940,7 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -1048,7 +1048,7 @@ const raidplanStrat: Strat = {
             alliance: 'C',
             role: 'Healer',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -1493,7 +1493,7 @@ const codcarStrat: Strat = {
                     }
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '平台内侧 右',
                     imageUrl: './strats/codcar/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 35% 60%, black 10%, rgba(0, 0, 0, 0.4) 10%)',
@@ -2008,7 +2008,7 @@ const codcarStrat: Strat = {
             alliance: 'B',
             role: 'Tank',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2056,7 +2056,7 @@ const codcarStrat: Strat = {
             alliance: 'B',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2104,7 +2104,7 @@ const codcarStrat: Strat = {
             alliance: 'B',
             role: 'Healer',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2152,7 +2152,7 @@ const codcarStrat: Strat = {
             alliance: 'B',
             role: 'Healer',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2200,7 +2200,7 @@ const codcarStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2248,7 +2248,7 @@ const codcarStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2456,7 +2456,7 @@ const codcarStrat: Strat = {
             alliance: 'C',
             role: 'Tank',
             party: 1,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2504,7 +2504,7 @@ const codcarStrat: Strat = {
             alliance: 'C',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2552,7 +2552,7 @@ const codcarStrat: Strat = {
             alliance: 'C',
             role: 'Healer',
             party: 1,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2600,7 +2600,7 @@ const codcarStrat: Strat = {
             alliance: 'C',
             role: 'Healer',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2648,7 +2648,7 @@ const codcarStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 1,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2696,7 +2696,7 @@ const codcarStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
@@ -2915,24 +2915,24 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Tank',
             party: 1,
-            notes: '左侧/西侧平台, Face boss Inside',
+            notes: '左侧/西侧平台, 拉小云妈朝向场内，以场内位12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nInside\n 和奶一组 from B',
+                    description: '目标圈内\n北侧\n和B队的奶一组',
                     imageUrl: './strats/healerout/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 71.0% 49.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'Inside',
+                    description: '北（朝场内）',
                     imageUrl: './strats/healerout/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 85.8% 50.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 53.7% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 33.0% 78.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -2943,14 +2943,14 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(circle at 40% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的内侧',
                     imageUrl: './strats/healerout/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 76% 37%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside',
+                    description: '平台外侧',
                     imageUrl: './strats/healerout/platform-west-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -2958,14 +2958,14 @@ const healerOutStrat: Strat = {
             swapNote: "我换到了华容道的东北或者东南角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'start',
-                    description: 'NE/SE west of corner tile',
+                    mechanic: '基础站位',
+                    description: '十字路口格子的西侧格子',
                     imageUrl: './strats/healerout/postswap-a-tiles-east.png',
                     mask: 'radial-gradient(circle at 36.5% 21.3%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 34.5% 77.7%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 1!\nMove first on mechanics!",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你是优先级最高的人!\n所有机制你都最先动!",
                 },
                 {
                     mechanic: '潜地炮预站位',
@@ -2979,43 +2979,37 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
-                    description: 'SW inner tile',
+                    mechanic: '基础站位',
+                    description: '十字路口格子的东侧格子',
                     imageUrl: './strats/healerout/tiles-southwest.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 1!\nMove first on mechanics!",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你是优先级最高的人!\n所有机制你都最先动!",
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nInside\n 和奶一组 from B',
+                    description: '目标圈内\n北侧\n和B队的奶一组',
                     imageUrl: './strats/healerout/postswap-a-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 30.7% 49.9%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'Inside',
-                    imageUrl: './strats/healerout/postswap-a-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 11.5% 49%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-a-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的内侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 20.5% 37.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3025,42 +3019,42 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Healer',
             party: 1,
-            notes: '左侧/西侧平台, Boss faces Inside',
+            notes: '左侧/西侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nNorth Outside\n和远程一组',
+                    description: '目标圈外\n西南\n和远程一组',
                     imageUrl: './strats/healerout/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 24.0% 22.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'Outside',
+                    description: '南（朝场外）',
                     imageUrl: './strats/healerout/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 20.1% 50.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 52.3% 35.3%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 72.4% 78.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '内场北侧的种子',
+                    description: '内场真北侧的种子',
                     imageUrl: './strats/healerout/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 55.6% 35.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的外侧',
                     imageUrl: './strats/healerout/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 37.1% 63.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Inside',
+                    description: '平台内侧',
                     imageUrl: './strats/healerout/platform-west-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 83.3% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3069,24 +3063,18 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nNorth Outside\n和远程一组',
+                    description: '目标圈外\n东南\n和远程一组',
                     imageUrl: './strats/healerout/postswap-h-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 84.7% 20.4%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'Outside',
-                    imageUrl: './strats/healerout/postswap-h-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 74.7% 45.7%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/postswap-h-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 48.8% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 31% 78.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '平台靠南的外侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 61.9% 62.3%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3097,42 +3085,42 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Healer',
             party: 2,
-            notes: '左侧/西侧平台, Boss faces Inside',
+            notes: '左侧/西侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nSouth Outside\n 和近战一组',
+                    description: '目标圈外\n东南\n和近战一组',
                     imageUrl: './strats/healerout/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 24.2% 79.3%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'South',
+                    description: '东(真南)',
                     imageUrl: './strats/healerout/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 55.7% 79.7%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 52.3% 35.3%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 72.4% 78.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '外场北侧的种子',
+                    description: '外场真北侧的种子',
                     imageUrl: './strats/healerout/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 16.8% 34.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '外边环上南侧',
                     imageUrl: './strats/healerout/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 29.4% 87.0%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Inside',
+                    description: '平台内侧',
                     imageUrl: './strats/healerout/platform-west-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 83.3% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3141,24 +3129,18 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nSouth Outside\n 和近战一组',
+                    description: '目标圈外\n西南\n和近战一组',
                     imageUrl: './strats/healerout/postswap-h-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 81% 74.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'South',
-                    imageUrl: './strats/healerout/postswap-h-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 39.1% 82.2%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/postswap-h-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 48.8% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 31% 78.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '外边环上南侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 67.9% 86.6%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3169,24 +3151,24 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Melee',
             party: 1,
-            notes: '左侧/西侧平台, Boss faces Inside',
+            notes: '左侧/西侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nSouth Outside\n 和奶一组 2',
+                    description: '目标圈内\n东南\n和H2一组',
                     imageUrl: './strats/healerout/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 35.3% 68.5%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'South Outside',
+                    description: '东南',
                     imageUrl: './strats/healerout/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 21.7% 76.2%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 53.7% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 33.0% 78.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -3197,14 +3179,14 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(circle at 40% 48%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的内侧',
                     imageUrl: './strats/healerout/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 77.3% 60.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside',
+                    description: '平台外侧',
                     imageUrl: './strats/healerout/platform-west-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3212,18 +3194,18 @@ const healerOutStrat: Strat = {
             swapNote: "我换到了华容道的东北或者东南角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'start',
-                    description: 'NE/SE North/South cubby\nIf the swap puts you in East cubby, that\'s fine too.',
+                    mechanic: '基础站位',
+                    description: '华容道的东北或者东南角的突起',
                     imageUrl: './strats/healerout/postswap-a-tiles-east.png',
                     mask: 'radial-gradient(circle at 58.9% 9.7%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 58.9% 90.4%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "次优先级!\n让T先移动",
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: 'NE/SE North/South cubby',
+                    description: '华容道的东北或者东南角的突起',
                     imageUrl: './strats/healerout/tiles-east-chasers.png',
                     mask: 'radial-gradient(circle at 59.8% 6.3%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 59.8% 93.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -3233,43 +3215,37 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Melee',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的南侧格子',
                     imageUrl: './strats/healerout/tiles-southwest.png',
                     mask: 'radial-gradient(circle at 49.7% 76.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "次优先级!\n让T先移动",
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nSouth Outside\n 和奶一组 2',
+                    description: '目标圈内\n西南\n 和H2一组',
                     imageUrl: './strats/healerout/postswap-a-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 67.5% 64.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'South Outside',
-                    imageUrl: './strats/healerout/postswap-a-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 76.3% 74.0%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-a-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的内侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 22% 59.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3279,42 +3255,42 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Ranged',
             party: 1,
-            notes: '左侧/西侧平台, Boss faces Inside',
+            notes: '左侧/西侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nNorth Outside\n 和奶一组 1',
+                    description: '目标圈内\n西南\n和H1一组',
                     imageUrl: './strats/healerout/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 35.7% 35.2%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'North Outside',
+                    description: '西南',
                     imageUrl: './strats/healerout/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 20.8% 24.1%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 53.7% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 33.0% 78.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '内场南侧的种子',
+                    description: '内场真南侧的种子',
                     imageUrl: './strats/healerout/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 54.9% 62.9%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的外侧',
                     imageUrl: './strats/healerout/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 34.8% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside',
+                    description: '平台外侧',
                     imageUrl: './strats/healerout/platform-west-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 23% 50%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3322,14 +3298,14 @@ const healerOutStrat: Strat = {
             swapNote: "我换到了华容道的东北或者东南角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'start',
-                    description: 'NE/十字路口格子的东侧格子\nIf the swap puts you in North/South cubby, that\'s fine too.',
+                    mechanic: '基础站位',
+                    description: '华容道的东北或者东南角的突起',
                     imageUrl: './strats/healerout/postswap-a-tiles-east.png',
                     mask: 'radial-gradient(circle at 81.5% 20.5%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 82.7% 78.2%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你的优先级最低\n让T和近战先动",
                 },
                 {
                     mechanic: '潜地炮预站位',
@@ -3343,43 +3319,37 @@ const healerOutStrat: Strat = {
             alliance: 'A',
             role: 'Ranged',
             party: 2,
-            notes: '华容道内正方形西南角',
+            notes: '华容道西南角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的西侧格子',
                     imageUrl: './strats/healerout/tiles-southwest.png',
                     mask: 'radial-gradient(circle at 19.7% 48.9%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你的优先级最低\n让T和近战先动",
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nNorth Outside\n 和奶一组 1',
+                    description: '目标圈内\n东南\n和H1一组',
                     imageUrl: './strats/healerout/postswap-a-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 70.5% 29.9%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'North Outside',
-                    imageUrl: './strats/healerout/postswap-a-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 71.2% 24.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-a-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的外侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 59.6% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3389,42 +3359,36 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Tank',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的东侧格子',
                     imageUrl: './strats/healerout/tiles-northwest.png',
                     mask: 'radial-gradient(circle at 81% 50%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 1!\nMove first on mechanics!",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你是优先级最高的人!\n所有机制你都最先动!",
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nInside\n 和奶一组 from B',
+                    description: '目标圈内\n北侧\n和B队的奶一组',
                     imageUrl: './strats/healerout/postswap-b-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 30.7% 49.9%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'Inside',
-                    imageUrl: './strats/healerout/postswap-b-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 11.5% 49%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-b-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 68% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '平台靠北的内侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 20.5% 37.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3435,37 +3399,31 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的西侧格子',
                     imageUrl: './strats/healerout/tiles-northeast.png',
                     mask: 'radial-gradient(circle at 24.9% 51.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 1!\nMove first on mechanics!",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你是优先级最高的人!\n所有机制你都最先动!",
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nInside\n 和奶一组 from B',
+                    description: '目标圈内\n北侧\n和B队的奶一组',
                     imageUrl: './strats/healerout/postswap-b-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 71.9% 48%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'Inside',
-                    imageUrl: './strats/healerout/postswap-b-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 87.9% 50.8%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-b-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 31% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -3475,42 +3433,42 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Healer',
             party: 1,
-            notes: '左侧/西侧平台, Boss faces Inside',
+            notes: '左侧/西侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nInside\n 和T一组',
+                    description: '目标圈外\n靠北\n和T一组',
                     imageUrl: './strats/healerout/platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 87.4% 49.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'North',
+                    description: '西',
                     imageUrl: './strats/healerout/platform-west-spread.png',
                     mask: 'radial-gradient(circle at 56.6% 12.8%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/platform-west-towers.png',
                     mask: 'radial-gradient(circle at 52.3% 35.3%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 72.4% 78.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '外场南侧的种子',
+                    description: '外场真南侧的种子',
                     imageUrl: './strats/healerout/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 17.1% 55%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '外边环上北侧',
+                    mechanic: '分散式波动炮',
+                    description: '外边环上真北侧',
                     imageUrl: './strats/healerout/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 32.2% 15.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Inside',
+                    description: '平台内侧',
                     imageUrl: './strats/healerout/platform-west-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 83.3% 49.8%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3519,25 +3477,19 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nInside\n 和T一组',
+                    description: '目标圈外\n靠北\n和T一组',
                     imageUrl: './strats/healerout/postswap-h-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 13.7% 50%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'North',
-                    imageUrl: './strats/healerout/postswap-h-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 40% 13.2%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/postswap-h-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 48.8% 34.3%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 31% 78.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '外边环上北侧',
+                    mechanic: '分散式波动炮',
+                    description: '外边环上真北侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 70% 18.7%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3547,42 +3499,42 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Healer',
             party: 2,
-            notes: '右侧/东侧平台, Boss faces Inside',
+            notes: '右侧/东侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nInside\n 和T一组',
+                    description: '目标圈外\n靠北\n和T一组',
                     imageUrl: './strats/healerout/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 12.6% 50%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'North',
+                    description: '东',
                     imageUrl: './strats/healerout/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 39% 17%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/platform-east-towers.png',
                     mask: 'radial-gradient(circle at 47.8% 35.5%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 28.5% 74.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '外场南侧的种子',
+                    description: '外场真南侧的种子',
                     imageUrl: './strats/healerout/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 88% 58.3%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '外边环上北侧',
+                    mechanic: '分散式波动炮',
+                    description: '外边环上真北侧',
                     imageUrl: './strats/healerout/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 70% 18.7%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Inside',
+                    description: '平台内侧',
                     imageUrl: './strats/healerout/platform-east-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 18.9% 51.6%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3591,24 +3543,18 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nInside\n 和T一组',
+                    description: '目标圈外\n靠北\n和T一组',
                     imageUrl: './strats/healerout/postswap-h-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 89.9% 49.2%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'North',
-                    imageUrl: './strats/healerout/postswap-h-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 58.3% 15%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/postswap-h-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 50% 34.5%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 70% 78.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '外边环上北侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 33% 15.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3619,43 +3565,37 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的北侧格子',
                     imageUrl: './strats/healerout/tiles-northwest.png',
                     mask: 'radial-gradient(circle at 49.1% 19.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "次优先级!\n让T先移动",
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nSouth Outside\n 和奶一组 2 from A',
+                    description: '目标圈内\n西南\n 和A队H2一组',
                     imageUrl: './strats/healerout/postswap-b-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 69.2% 65.3%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'South Outside',
-                    imageUrl: './strats/healerout/postswap-b-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 76.4% 74.7%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-b-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 50% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 69% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的内侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 22% 59.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3665,42 +3605,36 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 2,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的北侧格子',
                     imageUrl: './strats/healerout/tiles-northeast.png',
                     mask: 'radial-gradient(circle at 52% 20%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "次优先级!\n让T先移动",
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nSouth Outside\n 和奶一组 2 from C',
+                    description: '目标圈内\n东南\n和C队H2一组',
                     imageUrl: './strats/healerout/postswap-b-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 34.9% 66.3%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'South Outside',
-                    imageUrl: './strats/healerout/postswap-b-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 23.4% 76.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-b-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 31% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '平台靠南的内侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 78% 60.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3711,43 +3645,37 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Ranged',
             party: 1,
-            notes: '华容道内正方形西北角',
+            notes: '华容道西北角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的西侧格子',
                     imageUrl: './strats/healerout/tiles-northwest.png',
                     mask: 'radial-gradient(circle at 19.8% 48.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你的优先级最低\n让T和近战先动",
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nNorth Outside\n 和奶一组 1 from A',
+                    description: '目标圈内\n东南\n和A队H1一组',
                     imageUrl: './strats/healerout/postswap-b-platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 71.9% 30.7%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'North Outside',
-                    imageUrl: './strats/healerout/postswap-b-platform-east-spread.png',
-                    mask: 'radial-gradient(circle at 71.7% 26.9%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-b-platform-east-towers.png',
                     mask: 'radial-gradient(circle at 50% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 69% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的外侧',
                     imageUrl: './strats/healerout/postswap-platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 59.6% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3757,43 +3685,37 @@ const healerOutStrat: Strat = {
             alliance: 'B',
             role: 'Ranged',
             party: 2,
-            notes: '华容道内正方形东北角',
+            notes: '华容道东北角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的东侧格子',
                     imageUrl: './strats/healerout/tiles-northeast.png',
                     mask: 'radial-gradient(circle at 81.5% 49.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你的优先级最低\n让T和近战先动",
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nNorth Outside\n 和奶一组 1 from C',
+                    description: '目标圈内\n西南\n和C队H1一组',
                     imageUrl: './strats/healerout/postswap-b-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 36.1% 34.7%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'North Outside',
-                    imageUrl: './strats/healerout/postswap-b-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 22.4% 25.3%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-b-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 49.5% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 31% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的外侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 36% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -3803,24 +3725,24 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Tank',
             party: 1,
-            notes: '右侧/东侧平台, Face boss Inside',
+            notes: '右侧/东侧平台, 拉小云妈朝向场内，以场内位12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nInside\n 和奶一组 from B',
+                    description: '目标圈内\n北侧\n和B队的奶一组',
                     imageUrl: './strats/healerout/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 31% 50%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'Inside',
+                    description: '北',
                     imageUrl: './strats/healerout/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 11.2% 50.3%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/platform-east-towers.png',
                     mask: 'radial-gradient(circle at 48.8% 18.1%, black 11%, rgba(0, 0, 0, 0.2) 11%), radial-gradient(circle at 68.1% 73.8%, black 11%, rgba(0, 0, 0, 0.2) 11%)'
                 },
@@ -3831,14 +3753,14 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(circle at 62.7% 51%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的内侧',
                     imageUrl: './strats/healerout/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 20.5% 37.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside',
+                    description: '平台外侧',
                     imageUrl: './strats/healerout/platform-east-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 84.2% 53.3%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3846,14 +3768,14 @@ const healerOutStrat: Strat = {
             swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的东侧格子',
                     imageUrl: './strats/healerout/postswap-c-tiles-west.png',
                     mask: 'radial-gradient(circle at 75.3% 21.1%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 76.1% 79.9%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 1!\nMove first on mechanics!",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你是优先级最高的人!\n所有机制你都最先动!",
                 },
                 {
                     mechanic: '潜地炮预站位',
@@ -3867,42 +3789,36 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Tank',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的西侧格子',
                     imageUrl: './strats/healerout/tiles-southeast.png',
                     mask: 'radial-gradient(circle at 21% 48%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 1!\nMove first on mechanics!",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你是优先级最高的人!\n所有机制你都最先动!",
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nInside\n 和奶一组 from B',
+                    description: '目标圈内\n北侧\n和B队的奶一组',
                     imageUrl: './strats/healerout/postswap-c-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 72% 49%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'Inside',
-                    imageUrl: './strats/healerout/postswap-c-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 89% 50%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-c-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 50.5% 18.5%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 31.5% 78.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '平台靠北的内侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 76% 37%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3913,42 +3829,42 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Healer',
             party: 1,
-            notes: '右侧/东侧平台, Boss faces Inside',
+            notes: '右侧/东侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nNorth Outside\n和远程一组',
+                    description: '目标圈外\n东南\n和远程一组',
                     imageUrl: './strats/healerout/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 87.1% 19.3%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'Outside',
+                    description: '南',
                     imageUrl: './strats/healerout/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 75.5% 48.4%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/platform-east-towers.png',
                     mask: 'radial-gradient(circle at 47.8% 35.5%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 28.5% 74.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '内场北侧的种子',
+                    description: '内场真北侧的种子',
                     imageUrl: './strats/healerout/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 47.7% 40.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的外侧',
                     imageUrl: './strats/healerout/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 61.9% 62.3%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Inside',
+                    description: '平台内侧',
                     imageUrl: './strats/healerout/platform-east-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 18.9% 51.6%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -3957,24 +3873,18 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nNorth Outside\n和远程一组',
+                    description: '目标圈外\n西南\n和远程一组',
                     imageUrl: './strats/healerout/postswap-h-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 26.7% 22.6%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'Outside',
-                    imageUrl: './strats/healerout/postswap-h-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 23.1% 51.4%, black 13%, rgba(0, 0, 0, 0.4) 13%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/postswap-h-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 50% 34.5%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 70% 78.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
+                    mechanic: '分散式波动炮',
                     description: '平台靠南的外侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 38% 63.5%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
@@ -3985,42 +3895,42 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Healer',
             party: 2,
-            notes: '右侧/东侧平台, Boss faces Inside',
+            notes: '右侧/东侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nSouth Outside\n 和近战一组',
+                    description: '目标圈外\n西南\n 和近战一组',
                     imageUrl: './strats/healerout/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 82% 75.2%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'South',
+                    description: '西',
                     imageUrl: './strats/healerout/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 40% 83.8%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/platform-east-towers.png',
                     mask: 'radial-gradient(circle at 47.8% 35.5%, black 13%, rgba(0, 0, 0, 0.2) 13%), radial-gradient(circle at 28.5% 74.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '外场北侧的种子',
+                    description: '外场真北侧的种子',
                     imageUrl: './strats/healerout/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 89.5% 41.7%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '外边环上南侧',
+                    mechanic: '分散式波动炮',
+                    description: '外边环上真南侧',
                     imageUrl: './strats/healerout/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 67.9% 86.6%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Inside',
+                    description: '平台内侧',
                     imageUrl: './strats/healerout/platform-east-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 18.9% 51.6%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -4029,25 +3939,19 @@ const healerOutStrat: Strat = {
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Far from boss\nSouth Outside\n 和近战一组',
+                    description: '目标圈外\n东南\n和近战一组',
                     imageUrl: './strats/healerout/postswap-h-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 27.1% 79.1%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'South',
-                    imageUrl: './strats/healerout/postswap-h-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 58.3% 80%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'South/Inside',
+                    description: '靠真南/靠内场',
                     imageUrl: './strats/healerout/postswap-h-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 50% 34.5%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 70% 78.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '外边环上南侧',
+                    mechanic: '分散式波动炮',
+                    description: '外边环上真南侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 30% 87.0%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -4057,24 +3961,24 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 1,
-            notes: '右侧/东侧平台, Boss faces Inside',
+            notes: '右侧/东侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nSouth Outside\n 和奶一组 2',
+                    description: '目标圈内\n西南\n和H2一组',
                     imageUrl: './strats/healerout/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 69.1% 64.7%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'South Outside',
+                    description: '西南',
                     imageUrl: './strats/healerout/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 75.6% 73.9%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/platform-east-towers.png',
                     mask: 'radial-gradient(circle at 48.8% 18.1%, black 11%, rgba(0, 0, 0, 0.2) 11%), radial-gradient(circle at 68.1% 73.8%, black 11%, rgba(0, 0, 0, 0.2) 11%)'
                 },
@@ -4085,14 +3989,14 @@ const healerOutStrat: Strat = {
                     mask: 'radial-gradient(circle at 62.7% 51%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的内侧',
                     imageUrl: './strats/healerout/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 22% 59.8%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside',
+                    description: '平台外侧',
                     imageUrl: './strats/healerout/platform-east-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 84.2% 53.3%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -4100,18 +4004,18 @@ const healerOutStrat: Strat = {
             swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'start',
-                    description: 'NW/SW North/South cubby\nIf the swap puts you in West cubby, that\'s fine too.',
+                    mechanic: '基础站位',
+                    description: '华容道西北角或西南角的突起',
                     imageUrl: './strats/healerout/postswap-c-tiles-west.png',
                     mask: 'radial-gradient(circle at 49.5% 8.8%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 49.5% 91.1%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "次优先级!\n让T先移动",
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: 'NW/SW North/South cubby',
+                    description: '华容道西北角或西南角的突起',
                     imageUrl: './strats/healerout/tiles-west-chasers.png',
                     mask: 'radial-gradient(circle at 40.5% 6.2%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 40.9% 93.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -4121,43 +4025,37 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的南侧格子',
                     imageUrl: './strats/healerout/tiles-southeast.png',
                     mask: 'radial-gradient(circle at 49.6% 80.4%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 2!\nMove second on mechanics!\nLet the Tank move first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "次优先级!\n让T先移动",
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nSouth Outside\n 和奶一组 2',
+                    description: '目标圈内\n东南\n和H2一组',
                     imageUrl: './strats/healerout/postswap-c-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 36% 68%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'South Outside',
-                    imageUrl: './strats/healerout/postswap-c-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 23.4% 76.5%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-c-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 50.4% 18.5%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 31% 78.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠南的内侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真南的内侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 78% 60.9%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
@@ -4167,42 +4065,42 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 1,
-            notes: '右侧/东侧平台, Boss faces Inside',
+            notes: '右侧/东侧平台, 以场内为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nNorth Outside\n 和奶一组 1',
+                    description: '目标圈内\n东南\n和H1一组',
                     imageUrl: './strats/healerout/platform-east-pairs.png',
                     mask: 'radial-gradient(circle at 72.1% 30.4%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
                     mechanic: '分散',
-                    description: 'North Outside',
+                    description: '东南',
                     imageUrl: './strats/healerout/platform-east-spread.png',
                     mask: 'radial-gradient(circle at 71.2% 26.4%, black 12%, rgba(0, 0, 0, 0.4) 12%)'
                 },
                 {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/platform-east-towers.png',
                     mask: 'radial-gradient(circle at 48.8% 18.1%, black 11%, rgba(0, 0, 0, 0.2) 11%), radial-gradient(circle at 68.1% 73.8%, black 11%, rgba(0, 0, 0, 0.2) 11%)'
                 },
                 {
                     mechanic: '引导种子',
-                    description: '内场南侧的种子',
+                    description: '内场真南侧的种子',
                     imageUrl: './strats/healerout/platform-east-brambles.png',
                     mask: 'radial-gradient(circle at 46.5% 68.1%, black 10%, rgba(0, 0, 0, 0.4) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的外侧',
                     imageUrl: './strats/healerout/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 59.6% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
                 {
                     mechanic: '换线',
-                    description: 'Outside',
+                    description: '平台外侧',
                     imageUrl: './strats/healerout/platform-east-swap.png',
                     mask: 'radial-gradient(ellipse 100% 250% at 84.2% 53.3%, black 16%, rgba(0, 0, 0, 0.4) 16%)'
                 },
@@ -4210,18 +4108,18 @@ const healerOutStrat: Strat = {
             swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
             swapStrats: [
                 {
-                    mechanic: 'start',
-                    description: '十字路口格子的西侧格子\nIf the swap puts you in North/South cubby, that\'s fine too.',
+                    mechanic: '基础站位',
+                    description: '华容道的西北或者西南角的突起',
                     imageUrl: './strats/healerout/postswap-c-tiles-west.png',
                     mask: 'radial-gradient(circle at 23.1% 20.9%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 23.6% 79.4%, black 9%, rgba(0, 0, 0, 0.2) 9%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你的优先级最低\n让T和近战先动",
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: '十字路口格子的西侧格子',
+                    description: '华容道的西北或者西南角的突起',
                     imageUrl: './strats/healerout/tiles-west-chasers.png',
                     mask: 'radial-gradient(circle at 13.3% 20.7%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 13.5% 78.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
@@ -4231,43 +4129,37 @@ const healerOutStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 2,
-            notes: '华容道内正方形东南角',
+            notes: '华容道东南角',
             startingArea: 'Tiles',
             strats: [
                 {
-                    mechanic: 'start',
+                    mechanic: '基础站位',
                     description: '十字路口格子的东侧格子',
                     imageUrl: './strats/healerout/tiles-southeast.png',
                     mask: 'radial-gradient(circle at 79.2% 49.3%, black 22%, rgba(0, 0, 0, 0.4) 22%)'
                 },
                 {
-                    mechanic: 'priority: t>m>r',
-                    description: "You're priority 3!\nMove last on mechanics!\nLet the Tank and Melee\nmove first.",
+                    mechanic: '优先级：T>近战>远程',
+                    description: "你的优先级最低\n让T和近战先动",
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
             swapStrats: [
                 {
                     mechanic: '分摊',
-                    description: 'Close to boss\nNorth Outside\n 和奶一组 1',
+                    description: '目标圈内\n西南\n和H1一组',
                     imageUrl: './strats/healerout/postswap-c-platform-west-pairs.png',
                     mask: 'radial-gradient(circle at 36.1% 34.7%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: 'North Outside',
-                    imageUrl: './strats/healerout/postswap-c-platform-west-spread.png',
-                    mask: 'radial-gradient(circle at 22.4% 25.3%, black 11%, rgba(0, 0, 0, 0.4) 11%)'
-                },
-                {
                     mechanic: '踩塔',
-                    description: 'North/Outside',
+                    description: '靠真北/靠场外',
                     imageUrl: './strats/healerout/postswap-c-platform-west-towers.png',
                     mask: 'radial-gradient(circle at 50.4% 18.5%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 31% 78.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
-                    mechanic: '分散',
-                    description: '平台靠北的外侧',
+                    mechanic: '分散式波动炮',
+                    description: '平台靠真北的外侧',
                     imageUrl: './strats/healerout/postswap-platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 36% 36.4%, black 8%, rgba(0, 0, 0, 0.4) 8%)'
                 },
