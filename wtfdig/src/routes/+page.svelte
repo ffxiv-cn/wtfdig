@@ -47,10 +47,10 @@
 				<div>
 					<h2>你用哪个打法？</h2>
 					<RadioGroup>
+						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>イディル改</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'codcar'}>CODCAR</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'healerout'}>HealerOut</RadioItem>
-						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>game8</RadioItem>
 					</RadioGroup>
 				</div>
 				<div>
