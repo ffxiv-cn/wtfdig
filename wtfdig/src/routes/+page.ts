@@ -4439,19 +4439,19 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '凝缩式波动炮',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/wild-charge-tiles.png',
                     mask: 'radial-gradient(circle at 82.8% 11.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 82% 82%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: '看图（这是网站原作者就这么写的）\n面向云妈的十字路口右侧的格子',
+                    description: '看图',
                     imageUrl: './strats/idyll/chaser.png',
                     mask: 'radial-gradient(circle at 79% 11%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 89% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/begone-with-you.png',
                     mask: 'radial-gradient(circle at 64.8% 9.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 64% 61%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
                 },
@@ -4511,19 +4511,19 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/wild-charge-tiles.png',
                     mask: 'radial-gradient(circle at 82.8% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 82% 92%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: '看图（这是网站原作者就这么写的）\n面向云妈的十字路口右侧的格子',
+                    description: '看图',
                     imageUrl: './strats/idyll/chaser.png',
                     mask: 'radial-gradient(circle at 89% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 79% 89%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/begone-with-you.png',
                     mask: 'radial-gradient(circle at 64.8% 34.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 64% 87%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
                 },
@@ -5541,19 +5541,19 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/wild-charge-tiles.png',
                     mask: 'radial-gradient(circle at 18.8% 10.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 19% 83%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: '看图（这是网站原作者就这么写的）\n面向云妈的十字路口右侧的格子',
+                    description: '看图',
                     imageUrl: './strats/idyll/chaser.png',
                     mask: 'radial-gradient(circle at 22% 11%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 9% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/begone-with-you.png',
                     mask: 'radial-gradient(circle at 29.8% 9.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 30% 61%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
                 },
@@ -5617,19 +5617,19 @@ const idyllStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/wild-charge-tiles.png',
                     mask: 'radial-gradient(circle at 18% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 18% 92%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '潜地炮预站位',
-                    description: '看图（这是网站原作者就这么写的）\n面向云妈的十字路口右侧的格子',
+                    description: '看图',
                     imageUrl: './strats/idyll/chaser.png',
                     mask: 'radial-gradient(circle at 11% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 21% 89%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '看图（这是网站原作者就这么写的）',
+                    description: '看图',
                     imageUrl: './strats/idyll/begone-with-you.png',
                     mask: 'radial-gradient(circle at 29.8% 34.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 30% 87%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
                 },
