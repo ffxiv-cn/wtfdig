@@ -6434,13 +6434,14 @@ const idyllStrat: Strat = {
 };
 
 const ziyanStrat: Strat = {
-    stratName: 'idyll',
+    stratName: 'ziyan',
     stratUrl: {
         kanatan: 'http://kanatan.info/archives/38822195.html',
         raidplan: 'https://raidplan.io/plan/BBhK6qoMdxoGX_0C',
+        子言视频: 'https://www.bilibili.com/video/BV1KMPVeSEbr',
     },
-    description: '来自@idyllshireinfo的打法',
-    notes: '东西平台都是以场外为12点; THD的顺序不适用于华容道内的放种子',
+    description: '来自@idyllshireinfo（イディル改|田园郡改）的打法',
+    notes: '东西平台都是以场外为12点',
     strats: [
         {
             alliance: 'A',
