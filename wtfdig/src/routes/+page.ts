@@ -6454,7 +6454,7 @@ const ziyanStrat: Strat = {
                     mechanic: '分摊',
                     description: '目标圈内 靠北 和H2一组',
                     imageUrl: './strats/ziyan/platform-pairs-west.png',
-                    mask: 'radial-gradient(circle at 48% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    mask: 'radial-gradient(circle at 50% 38%, black 3%, rgba(0, 0, 0, 0.2) 3%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': 'rotate(270deg)',
