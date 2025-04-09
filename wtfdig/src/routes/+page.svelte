@@ -47,7 +47,8 @@
 				<div>
 					<h2>你用哪个打法？</h2>
 					<RadioGroup>
-						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>イディル改</RadioItem>
+						<RadioItem bind:group={stratName} name="stratName" value={'ziyan'}>子言</RadioItem>
+						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>田园改</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'codcar'}>CODCAR</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'healerout'}>HealerOut</RadioItem>
@@ -88,6 +89,8 @@
 					<img style:max-height={'400px'} src={'./strats/healerout/overall.png'} />
 				{:else if stratPackage?.stratName === 'idyll'}
 					<img style:max-height={'400px'} src={'./strats/idyll/overall.png'} />
+				{:else if stratPackage?.stratName === 'ziyan'}
+					<img style:max-height={'400px'} src={'./strats/ziyan/overall.png'} />
 				{/if}
 			</div>
 		</div>

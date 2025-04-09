@@ -16,7 +16,8 @@
         type: 'alert',
         title: '更新日志',
         body: 
-`3/20/2025：添加了中文翻译(add Chinese translation)
+`4/9/2025：增加了子言视频内idyll改的图片资源
+3/20/2025：添加了中文翻译(add Chinese translation)
 1/21/2025: added warning for core-lateral and lateral-core swap in 7.16
 1/20/2025: added more comprehensive post-swap spots to HealerOut
 1/20/2025: fix idyll C postswap image rotation

@@ -3,7 +3,7 @@ import type { PageLoad } from "./$types";
 
 export const load: PageLoad = ({params}) => {
     return {
-        strats: [raidplanStrat, codcarStrat, healerOutStrat, idyllStrat],
+        strats: [raidplanStrat, codcarStrat, healerOutStrat, idyllStrat, ziyanStrat],
     }
 }
 
@@ -4169,6 +4169,2271 @@ const healerOutStrat: Strat = {
 }
 
 const idyllStrat: Strat = {
+    stratName: 'idyll',
+    stratUrl: {
+        kanatan: 'http://kanatan.info/archives/38822195.html',
+        raidplan: 'https://raidplan.io/plan/BBhK6qoMdxoGX_0C',
+    },
+    description: '来自@idyllshireinfo的打法',
+    notes: '东西平台都是以场外为12点; THD的顺序不适用于华容道内的放种子',
+    strats: [
+        {
+            alliance: 'A',
+            role: 'Tank',
+            party: 1,
+            notes: '左侧/西侧平台上，拉boss朝场外，以场外作为12点| MT',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内 靠北 和H2一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    mask: 'radial-gradient(circle at 48% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '西北偏北',
+                    imageUrl: './strats/idyll/spread.png',
+                    mask: 'radial-gradient(circle at 33% 53.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '不引导，站在小云妈脚下',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 56% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台外侧',
+                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    mask: 'radial-gradient(circle at 27% 48%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了华容道的东北或者东南角！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子西侧的两个格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 61% 22%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 62% 77%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子西侧的格子',
+                    imageUrl: './strats/idyll/wild-charge-tiles.png',
+                    mask: 'radial-gradient(circle at 73.8% 21.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 73% 80%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '十字路口格子的\n以云妈为中心的逆时针方向\n(面向云妈右侧)',
+                    imageUrl: './strats/idyll/chaser.png',
+                    mask: 'radial-gradient(circle at 67% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 79% 67%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基本站位的最中间',
+                    imageUrl: './strats/idyll/begone-with-you.png',
+                    mask: 'radial-gradient(circle at 53.8% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 54% 78%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Tank',
+            party: 2,
+            notes: '华容道的西北角 | ST',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '华容道的西北角东侧的两个格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 41% 22%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(1,-1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/idyll/wild-charge-nw.png',
+                    mask: 'radial-gradient(circle at 77.8% 55.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基本站位的最中间',
+                    imageUrl: './strats/idyll/begone-with-you-nw.png',
+                    mask: 'radial-gradient(circle at 67% 32%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最高往安全区走\n如果在安全区则去水平方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 78% 10%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 9% 60.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilew.png',
+                    mask: 'radial-gradient(circle at 65% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内 北 和D3一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 48% 54%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 43% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Healer',
+            party: 1,
+            notes: '华容道的西北角',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 30% 13%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(1,-1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/wild-charge-nw.png',
+                    mask: 'radial-gradient(circle at 50.8% 24.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-nw.png',
+                    mask: 'radial-gradient(circle at 41% 11%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级次于T往安全区走\n如果在安全区则去垂直方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 67% 10%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 21% 54.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/idyll/looming-chaos-tilew.png',
+                    mask: 'radial-gradient(circle at 40% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内西\n和B队D2一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 56% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 43% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Healer',
+            party: 2,
+            notes: '左侧/西侧平台',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外 北 和MT一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    mask: 'radial-gradient(circle at 32% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '东北偏北',
+                    imageUrl: './strats/idyll/spread.png',
+                    mask: 'radial-gradient(circle at 33% 35.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    mask: 'radial-gradient(circle at 74.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '外侧靠东的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 23% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 58% 59%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台外侧',
+                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    mask: 'radial-gradient(circle at 27% 55%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了华容道的东北或者东南角！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 68% 17%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 68% 60%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '看图',
+                    imageUrl: './strats/idyll/wild-charge-tiles.png',
+                    mask: 'radial-gradient(circle at 82.8% 11.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 82% 82%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '看图',
+                    imageUrl: './strats/idyll/chaser.png',
+                    mask: 'radial-gradient(circle at 79% 11%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 89% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '看图',
+                    imageUrl: './strats/idyll/begone-with-you.png',
+                    mask: 'radial-gradient(circle at 64.8% 9.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 64% 61%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Melee',
+            party: 1,
+            notes: '左侧/西侧平台 | D1',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内西\n和D3一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    mask: 'radial-gradient(circle at 60% 55%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '西',
+                    imageUrl: './strats/idyll/spread.png',
+                    mask: 'radial-gradient(circle at 61% 69.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '不引导，站在小云妈脚下',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 20% 39%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台外侧',
+                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    mask: 'radial-gradient(circle at 27% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了华容道的东北或者东南角！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 68% 38%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 68% 82%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '看图',
+                    imageUrl: './strats/idyll/wild-charge-tiles.png',
+                    mask: 'radial-gradient(circle at 82.8% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 82% 92%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '看图',
+                    imageUrl: './strats/idyll/chaser.png',
+                    mask: 'radial-gradient(circle at 89% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 79% 89%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '看图',
+                    imageUrl: './strats/idyll/begone-with-you.png',
+                    mask: 'radial-gradient(circle at 64.8% 34.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 64% 87%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Melee',
+            party: 2,
+            notes: '左侧/西侧平台 | D2',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内东\n和D4一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    mask: 'radial-gradient(circle at 60% 35%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '东',
+                    imageUrl: './strats/idyll/spread.png',
+                    mask: 'radial-gradient(circle at 56% 19.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    mask: 'radial-gradient(circle at 76.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '内侧靠东的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 58% 28%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 20% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台内侧',
+                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    mask: 'radial-gradient(circle at 65% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 43.2% 72%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 23% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外西\n 和原内场的奶一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 56% 71%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 74% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Ranged',
+            party: 1,
+            notes: '左侧/西侧平台 | D3',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外西\n和D1一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    mask: 'radial-gradient(circle at 60% 68%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '西北偏西',
+                    imageUrl: './strats/idyll/spread.png',
+                    mask: 'radial-gradient(circle at 41% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '平台内侧靠西的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 58% 42%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 东侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 33% 20%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台内侧',
+                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    mask: 'radial-gradient(circle at 65% 46%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 43.2% 72%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 23% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外 北 和原内场T一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 40% 55%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 东侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 60% 81%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'A',
+            role: 'Ranged',
+            party: 2,
+            notes: '左侧/西侧平台 | D4',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外东\n和D2一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    mask: 'radial-gradient(circle at 62% 22%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '东北偏东',
+                    imageUrl: './strats/idyll/spread.png',
+                    mask: 'radial-gradient(circle at 41% 23.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    mask: 'radial-gradient(circle at 76.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '外侧靠西的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 24% 53%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 西侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 33% 80%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台内侧',
+                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    mask: 'radial-gradient(circle at 65% 53%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 43.2% 72%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 23% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外东\n和原内场DPS一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 57% 36%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 西侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 63% 22%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Tank',
+            party: 1,
+            notes: '华容道西南角 | MT',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的东侧格子的两个格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 41% 77%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/idyll/wild-charge-sw.png',
+                    mask: 'radial-gradient(circle at 60.8% 33.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基本站位的最中间',
+                    imageUrl: './strats/idyll/begone-with-you-sw.png',
+                    mask: 'radial-gradient(circle at 67% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最高往安全区走\n如果在安全区则去水平方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 11% 39%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 79% 89.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilew.png',
+                    mask: 'radial-gradient(circle at 65% 81%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内 北 和D3一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 48% 54%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 43% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Tank',
+            party: 2,
+            notes: '华容道东南角 | ST',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子西侧的两个格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 57% 77%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的西侧格子',
+                    imageUrl: './strats/idyll/wild-charge-sw.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 60.8% 33.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基本站位的最中间',
+                    imageUrl: './strats/idyll/begone-with-you-se.png',
+                    mask: 'radial-gradient(circle at 31% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最高往安全区走\n如果在安全区则去水平方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 22% 39%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 92% 89.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的西侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
+                    mask: 'radial-gradient(circle at 38% 81%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 47.2% 46%, black 20%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 67% 71.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内 北 和D3一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 48% 54%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 55% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Healer',
+            party: 1,
+            notes: '华容道西南角',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 29% 61%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/idyll/wild-charge-sw.png',
+                    mask: 'radial-gradient(circle at 50.8% 40.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-sw.png',
+                    mask: 'radial-gradient(circle at 42% 33%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级次于T往安全区走\n如果在安全区则去十字路口北侧的格子跟随激光移动',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 20% 34%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 69% 89.7%, black 5%, rgba(0, 0, 0, 0.2) 5%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilew.png',
+                    mask: 'radial-gradient(circle at 40% 68%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内西\n和B队D2一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 56% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 43% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Healer',
+            party: 2,
+            notes: '华容道东南角',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 68% 61%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/idyll/wild-charge-sw.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 50.8% 40.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-se.png',
+                    mask: 'radial-gradient(circle at 54% 34%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级次于T往安全区走\n如果在安全区则去十字路口北侧的格子跟随激光移动',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 32% 39%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 79% 84.7%, black 5%, rgba(0, 0, 0, 0.2) 5%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
+                    mask: 'radial-gradient(circle at 59% 68%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 47.2% 46%, black 20%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 67% 71.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内西\n和B队D2一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 56% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 57% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Melee',
+            party: 1,
+            notes: '华容道的西北角 | D1',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 30% 37%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(1,-1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '华容道的西北角',
+                    imageUrl: './strats/idyll/wild-charge-nw.png',
+                    mask: 'radial-gradient(circle at 50.8% 50.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-nw.png',
+                    mask: 'radial-gradient(circle at 43% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最低往安全区走\n如果在安全区则去十字路口南侧的格子跟随激光移动',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 55% 10%, black 5%, rgba(0, 0, 0, 0.2) 5%), radial-gradient(circle at 22% 65.7%, black 6%, rgba(0, 0, 0, 0.2) 6%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilew.png',
+                    mask: 'radial-gradient(circle at 40% 31%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内东\n和A队的D4一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 56% 44%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 75% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Melee',
+            party: 2,
+            notes: '华容道东北角 | D2',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 68% 37%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/idyll/wild-charge-nw.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 50.8% 50.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-ne.png',
+                    mask: 'radial-gradient(circle at 63% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最低往安全区走\n如果在安全区则去十字路口南侧的格子跟随激光移动',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 78% 13%, black 5%, rgba(0, 0, 0, 0.2) 5%), radial-gradient(circle at 46% 60.7%, black 6%, rgba(0, 0, 0, 0.2) 6%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
+                    mask: 'radial-gradient(circle at 59% 31%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 47.2% 46%, black 20%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 67% 71.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内东\n和A队的D4一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 57% 45%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 18% 39%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Ranged',
+            party: 1,
+            notes: '华容道西南角 | D3',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 30% 85%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '华容道西南角',
+                    imageUrl: './strats/idyll/wild-charge-sw.png',
+                    mask: 'radial-gradient(circle at 38.8% 59.6%, black 11%, rgba(0, 0, 0, 0.2) 11%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-sw.png',
+                    mask: 'radial-gradient(circle at 43% 84%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最低往安全区走\n如果在安全区则去垂直方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 20% 47%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 57% 89.7%, black 5%, rgba(0, 0, 0, 0.2) 5%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/idyll/looming-chaos-tilew.png',
+                    mask: 'radial-gradient(circle at 40% 81%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了东侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-e.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内东\n和A队的D4一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 56% 44%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 75% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'B',
+            role: 'Ranged',
+            party: 2,
+            notes: '华容道东南角 | D4',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的南侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 68% 88%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '华容道东南角',
+                    transform: 'scale(-1,1)',
+                    imageUrl: './strats/idyll/wild-charge-sw.png',
+                    mask: 'radial-gradient(circle at 38.8% 59.6%, black 11%, rgba(0, 0, 0, 0.2) 11%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-se.png',
+                    mask: 'radial-gradient(circle at 57% 82%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最低往安全区走\n如果在安全区则去垂直方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 45% 39%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 78% 95.7%, black 4%, rgba(0, 0, 0, 0.2) 4%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
+                    mask: 'radial-gradient(circle at 60% 81%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 47.2% 46%, black 20%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 67% 71.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内东\n和A队的D4一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 57% 45%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 18% 39%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Tank',
+            party: 1,
+            notes: '右侧/东侧平台，拉BOSS朝场外，以场外作为12点 | MT',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内 北 和H2一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 48% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '西北偏北',
+                    imageUrl: './strats/idyll/spread.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 33% 53.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '不引导，站在小云妈脚下',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 43% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台外侧',
+                    imageUrl: './strats/idyll/looming-chaos-e.png',
+                    mask: 'radial-gradient(circle at 72% 48%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口东侧的两个格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 40% 22%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 40% 77%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/idyll/wild-charge-tiles.png',
+                    mask: 'radial-gradient(circle at 27.8% 21.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 29% 82%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '十字路口格子的\n以云妈为中心的逆时针方向\n(面向云妈右侧)',
+                    imageUrl: './strats/idyll/chaser.png',
+                    mask: 'radial-gradient(circle at 21% 33%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 33% 79%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基本站位的最中间',
+                    imageUrl: './strats/idyll/begone-with-you.png',
+                    mask: 'radial-gradient(circle at 39.8% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 40% 78%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Tank',
+            party: 2,
+            notes: '华容道东北角 | ST',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口西侧的两个格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 58% 22%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(-1,-1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的西侧格子',
+                    imageUrl: './strats/idyll/wild-charge-nw.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 77.8% 55.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基本站位的最中间',
+                    imageUrl: './strats/idyll/begone-with-you-ne.png',
+                    mask: 'radial-gradient(circle at 37% 32%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级最高往安全区走\n如果在安全区则去水平方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 89% 10%, black 5%, rgba(0, 0, 0, 0.2) 5%), radial-gradient(circle at 22% 60.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '十字路口格子的西侧格子',
+                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
+                    mask: 'radial-gradient(circle at 38% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 47.2% 46%, black 20%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 67% 71.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内 北 和D3一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 48% 54%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 57% 41%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Healer',
+            party: 1,
+            notes: '华容道东北角',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 68% 13%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '优先级: H > D > T',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/wild-charge-nw.png',
+                    transform: 'scale(-1,1)',
+                    mask: 'radial-gradient(circle at 50.8% 24.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '基础站位上',
+                    imageUrl: './strats/idyll/begone-with-you-ne.png',
+                    mask: 'radial-gradient(circle at 63% 11%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+                {
+                    mechanic: '回旋式波动炮',
+                    description: '如果在危险区则优先级次于T往安全区走\n如果在安全区则去垂直方向的突起',
+                    imageUrl: './strats/idyll/spinny.png',
+                    mask: 'radial-gradient(circle at 77% 4%, black 5%, rgba(0, 0, 0, 0.2) 5%), radial-gradient(circle at 33% 60.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '换线',
+                    description: '华容道东北角',
+                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
+                    mask: 'radial-gradient(circle at 60% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内西\n和B队D2一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 56% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 58% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Healer',
+            party: 2,
+            notes: '右侧/东侧平台',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外 北 和MT一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 32% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '东北偏北',
+                    imageUrl: './strats/idyll/spread.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 33% 35.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 74.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '外侧靠东的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 23% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 43% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台外侧',
+                    imageUrl: './strats/idyll/looming-chaos-e.png',
+                    mask: 'radial-gradient(circle at 73% 51%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '基础站位',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 29% 17%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 29% 60%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '看图',
+                    imageUrl: './strats/idyll/wild-charge-tiles.png',
+                    mask: 'radial-gradient(circle at 18.8% 10.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 19% 83%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '看图',
+                    imageUrl: './strats/idyll/chaser.png',
+                    mask: 'radial-gradient(circle at 22% 11%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 9% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '看图',
+                    imageUrl: './strats/idyll/begone-with-you.png',
+                    mask: 'radial-gradient(circle at 29.8% 9.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 30% 61%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Melee',
+            party: 1,
+            notes: '右侧/东侧平台 | D1',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内西\n 和D3一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 60% 55%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '西',
+                    imageUrl: './strats/idyll/spread.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 61% 69.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '不引导，站在小云妈脚下',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 74% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台外侧',
+                    imageUrl: './strats/idyll/looming-chaos-e.png',
+                    mask: 'radial-gradient(circle at 71% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '基础站位',
+                    description: 'South from 十字路口格子上',
+                    imageUrl: './strats/idyll/overall.png',
+                    mask: 'radial-gradient(circle at 28% 38%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 28% 82%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                },
+                {
+                    mechanic: '分摊',
+                    description: '看图',
+                    imageUrl: './strats/idyll/wild-charge-tiles.png',
+                    mask: 'radial-gradient(circle at 18% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 18% 92%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '看图',
+                    imageUrl: './strats/idyll/chaser.png',
+                    mask: 'radial-gradient(circle at 11% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 21% 89%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '看图',
+                    imageUrl: './strats/idyll/begone-with-you.png',
+                    mask: 'radial-gradient(circle at 29.8% 34.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 30% 87%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Melee',
+            party: 2,
+            notes: '右侧/东侧平台 | D2',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈内东\n和D4一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 60% 35%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '东',
+                    imageUrl: './strats/idyll/spread.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 56% 19.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 76.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '内侧靠东的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 58% 28%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台外侧 靠西',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 75% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台内侧',
+                    imageUrl: './strats/idyll/looming-chaos-e.png',
+                    mask: 'radial-gradient(circle at 36% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 79.2% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 62% 29.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外西\n 和原内场的奶一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 56% 71%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '平台内侧 靠东',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 20% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Ranged',
+            party: 1,
+            notes: '右侧/东侧平台 | D3',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外西\n和D1一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 60% 68%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '西北偏西',
+                    imageUrl: './strats/idyll/spread.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 41% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '北/西',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '内侧靠西的种子',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 58% 42%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 东侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 62% 82%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台内侧',
+                    imageUrl: './strats/idyll/looming-chaos-e.png',
+                    mask: 'radial-gradient(circle at 36% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 79.2% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 62% 29.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外西\n 和原内场T一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 40% 55%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 东侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 33% 20%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+        {
+            alliance: 'C',
+            role: 'Ranged',
+            party: 2,
+            notes: '右侧/东侧平台 | D4',
+            startingArea: 'Platform',
+            strats: [
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外东\n和D2一组',
+                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 62% 22%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散',
+                    description: '东北偏东',
+                    imageUrl: './strats/idyll/spread.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 41% 23.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 76.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '引导种子',
+                    description: '北',
+                    imageUrl: './strats/idyll/brambles-w.png',
+                    transform: 'rotate(180deg)',
+                    mask: 'radial-gradient(circle at 24% 53%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 西侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-e.png',
+                    mask: 'radial-gradient(circle at 64% 21%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+                {
+                    mechanic: '换线',
+                    description: '平台内侧',
+                    imageUrl: './strats/idyll/looming-chaos-e.png',
+                    mask: 'radial-gradient(circle at 36% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(270deg)',
+                    }
+                },
+            ],
+            swapNote: "我换到了西侧的平台上！现在怎么站?",
+            swapStrats: [
+                {
+                    mechanic: '踩塔',
+                    description: '南/东',
+                    imageUrl: './strats/idyll/towers-post-swap-w.png',
+                    mask: 'radial-gradient(circle at 79.2% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 62% 29.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分摊',
+                    description: '目标圈外东\n和原内场DPS一组',
+                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
+                    mask: 'radial-gradient(circle at 57% 36%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '外环上 西侧塔附近',
+                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    mask: 'radial-gradient(circle at 32% 80%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'rotate(90deg)',
+                    }
+                },
+            ]
+        },
+    ]
+};
+
+const ziyanStrat: Strat = {
     stratName: 'idyll',
     stratUrl: {
         kanatan: 'http://kanatan.info/archives/38822195.html',
