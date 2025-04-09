@@ -6436,25 +6436,25 @@ const idyllStrat: Strat = {
 const ziyanStrat: Strat = {
     stratName: 'ziyan',
     stratUrl: {
+        子言视频: 'https://www.bilibili.com/video/BV1KMPVeSEbr',
         kanatan: 'http://kanatan.info/archives/38822195.html',
         raidplan: 'https://raidplan.io/plan/BBhK6qoMdxoGX_0C',
-        子言视频: 'https://www.bilibili.com/video/BV1KMPVeSEbr',
     },
-    description: '来自@idyllshireinfo（イディル改|田园郡改）的打法',
+    description: '子言视频内提到的イディル改（田园郡改@idyllshireinfo）打法',
     notes: '东西平台都是以场外为12点',
     strats: [
         {
             alliance: 'A',
             role: 'Tank',
             party: 1,
-            notes: '左侧/西侧平台上，拉boss朝场外，以场外作为12点| MT',
+            notes: '左侧/西侧平台上，拉boss朝场外，以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
                     description: '目标圈内 靠北 和H2一组',
                     imageUrl: './strats/ziyan/platform-pairs-west.png',
-                    mask: 'radial-gradient(circle at 50% 38%, black 3%, rgba(0, 0, 0, 0.2) 3%)',
+                    mask: 'radial-gradient(circle at 50% 33%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': 'rotate(270deg)',
@@ -6465,7 +6465,7 @@ const ziyanStrat: Strat = {
                     mechanic: '分散',
                     description: '西北偏北',
                     imageUrl: './strats/ziyan/platform-spread-west.png',
-                    mask: 'radial-gradient(circle at 33% 53.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    mask: 'radial-gradient(circle at 35% 10%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': 'rotate(270deg)',
@@ -6476,7 +6476,7 @@ const ziyanStrat: Strat = {
                     mechanic: '踩塔',
                     description: '北/西',
                     imageUrl: './strats/ziyan/platform-towers-west.png',
-                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 78%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': 'rotate(270deg)',
@@ -6487,7 +6487,7 @@ const ziyanStrat: Strat = {
                     mechanic: '引导种子',
                     description: '不引导，站在小云妈脚下',
                     imageUrl: './strats/ziyan/platform-west-brambles.png',
-                    mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 14.3% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -6498,7 +6498,7 @@ const ziyanStrat: Strat = {
                     mechanic: '分散式波动炮',
                     description: '平台内侧 靠东',
                     imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 56% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 80% 37.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentImages: {
                         'original': '',
                         'truenorth': '',
@@ -6507,14 +6507,14 @@ const ziyanStrat: Strat = {
                     alignmentMasks: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'radial-gradient(circle at 41% 67%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                        'addrelative': 'radial-gradient(circle at 62.5% 80%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
                     },
                 },
                 {
                     mechanic: '换线',
                     description: '平台外侧',
                     imageUrl: './strats/ziyan/platform-west-swap.png',
-                    mask: 'radial-gradient(circle at 27% 48%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 18% 48%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
