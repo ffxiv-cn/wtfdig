@@ -6453,40 +6453,40 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分摊',
                     description: '目标圈内 靠北 和H2一组',
-                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
+                    imageUrl: './strats/ziyan/platform-pairs-west.png',
                     mask: 'radial-gradient(circle at 48% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散',
                     description: '西北偏北',
-                    imageUrl: './strats/idyll/spread.png',
+                    imageUrl: './strats/ziyan/platform-spread-west.png',
                     mask: 'radial-gradient(circle at 33% 53.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '踩塔',
                     description: '北/西',
-                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
+                    imageUrl: './strats/ziyan/platform-towers-west.png',
                     mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '引导种子',
                     description: '不引导，站在小云妈脚下',
-                    imageUrl: './strats/idyll/brambles-w.png',
+                    imageUrl: './strats/ziyan/platform-west-brambles.png',
                     mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
@@ -6497,18 +6497,23 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分散式波动炮',
                     description: '平台内侧 靠东',
-                    imageUrl: './strats/idyll/begone-with-you-w.png',
+                    imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 56% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-west-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 41% 67%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
                 {
                     mechanic: '换线',
                     description: '平台外侧',
-                    imageUrl: './strats/idyll/looming-chaos-w.png',
+                    imageUrl: './strats/ziyan/platform-west-swap.png',
                     mask: 'radial-gradient(circle at 27% 48%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
