@@ -6499,7 +6499,7 @@ const ziyanStrat: Strat = {
                     description: '平台内侧 靠东',
                     imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
                     mask: 'radial-gradient(circle at 56% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
                         'addrelative': './strats/ziyan/platform-west-aoe-spread-rotated.png',
