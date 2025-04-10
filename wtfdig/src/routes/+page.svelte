@@ -210,6 +210,36 @@
 						</Accordion>
 					</div>
 				{/if}
+				{#if strat?.thirdSwapNote && strat?.thirdSwapStrats}
+					<div class="col-span-3">
+						<Accordion class="card variant-ghost-secondary" >
+							<AccordionItem open padding="py-4 px-4">
+								<svelte:fragment slot="lead"><img width="24px" src={"./swap-icon.png"} /></svelte:fragment>
+								<svelte:fragment slot="summary"><span class="text-xl">{strat.thirdSwapNote}</span></svelte:fragment>
+								<svelte:fragment slot="content">
+									{#if strat?.thirdSwapWarning}
+										<aside class="alert variant-ghost-error">
+											<div class="alert-message">
+												<p>{strat.thirdSwapWarning}</p>
+											</div>
+										</aside>
+									{/if}
+									<div class="grid grid-cols-3 gap-2">
+										{#each strat.thirdSwapStrats as step}
+											{#key [spotlight, alignment]}
+											<div class="space-y-4" class:col-span-2={step.alignmentImages && step.alignmentImages[alignment]}>
+												<div class="uppercase text-xl">{step.mechanic}</div> 
+												<div class="whitespace-pre-wrap text-l">{step.description}</div>
+												<img src={(step.alignmentImages && step.alignmentImages[alignment]) ? step.alignmentImages[alignment] : step.imageUrl} style:mask-image={getMask(step)} style:transform={step.alignmentTransforms ? step.alignmentTransforms[alignment] : step.transform} />
+											</div>
+											{/key}
+										{/each}
+									</div>
+								</svelte:fragment>
+							</AccordionItem>
+						</Accordion>
+					</div>
+				{/if}
 			</div>
 		{/if}
 	</div>
