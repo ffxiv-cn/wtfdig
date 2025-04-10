@@ -16,7 +16,7 @@
         type: 'alert',
         title: '更新日志',
         body: 
-`4/9/2025：增加了子言视频内idyll改的图片资源
+`4/9/2025：增加了子言视频内idyll改的图片资源的选项，为子言选项中每种不同换位后位置添加了单独的小窗
 3/20/2025：添加了中文翻译(add Chinese translation)
 1/21/2025: added warning for core-lateral and lateral-core swap in 7.16
 1/20/2025: added more comprehensive post-swap spots to HealerOut
