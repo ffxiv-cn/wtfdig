@@ -8207,19 +8207,19 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '潜地炮预站位',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
+                    imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
                     mask: 'radial-gradient(circle at 81.0% 45.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
+                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
                     mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
+                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
                     mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ]
@@ -8270,7 +8270,7 @@ const ziyanStrat: Strat = {
                     mechanic: '换线',
                     description: '十字路口格子的西侧格子',
                     imageUrl: './strats/ziyan/tiles-northeast-swap.png',
-                mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -8343,19 +8343,19 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '潜地炮预站位',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
+                    imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
                     mask: 'radial-gradient(circle at 81.0% 45.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
+                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
                     mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
+                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
                     mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ]
