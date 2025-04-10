@@ -6977,7 +6977,7 @@ const ziyanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内西\n和D3一组',
+                    description: '目标圈内 西 和D3一组',
                     imageUrl: './strats/ziyan/platform-pairs-west.png',
                     mask: 'radial-gradient(circle at 28% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
@@ -7101,7 +7101,7 @@ const ziyanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内东\n和D4一组',
+                    description: '目标圈内 东 和D4一组',
                     imageUrl: './strats/ziyan/platform-pairs-west.png',
                     mask: 'radial-gradient(circle at 72% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
@@ -7188,7 +7188,7 @@ const ziyanStrat: Strat = {
                     mechanic: '分摊',
                     description: '目标圈外 西\n和原内场的奶一组',
                     imageUrl: './strats/ziyan/postswap-platform-pairs.png',
-                    mask: 'radial-gradient(circle at 17.9% 46.5%%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    mask: 'radial-gradient(circle at 17.9% 46.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': 'rotate(270deg)',
@@ -7197,7 +7197,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '平台内侧 靠东',
+                    description: '平台外侧 靠西',
                     imageUrl: './strats/ziyan/platform-east-aoe-spread.png',
                     mask: 'radial-gradient(circle at 67.5% 38.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentImages: {
@@ -7222,7 +7222,7 @@ const ziyanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外西\n和D1一组',
+                    description: '目标圈外 西 和D1一组',
                     imageUrl: './strats/ziyan/platform-pairs-west.png',
                     mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
@@ -7343,7 +7343,7 @@ const ziyanStrat: Strat = {
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外东\n和D2一组',
+                    description: '目标圈外 东 和D2一组',
                     imageUrl: './strats/ziyan/platform-pairs-west.png',
                     mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
@@ -7428,7 +7428,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外东\n和原内场DPS一组',
+                    description: '目标圈外 东\n和原内场DPS一组',
                     imageUrl: './strats/ziyan/postswap-platform-pairs.png',
                     mask: 'radial-gradient(circle at 84.4% 46.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
