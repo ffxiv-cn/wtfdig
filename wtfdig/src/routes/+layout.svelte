@@ -63,7 +63,7 @@
                 <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bbs.nga.cn/read.php?tid=43666710">
                     NGA帖子
                 </a>
-                回复<br>谢谢素素做的部署!笔芯
+                回复 || 谢谢素素做的部署!笔芯
             </div>
             <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
         </div>

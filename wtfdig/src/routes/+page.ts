@@ -8136,46 +8136,49 @@ const ziyanStrat: Strat = {
             alliance: 'B',
             role: 'Melee',
             party: 2,
-            notes: '华容道东北角 | D2',
+            notes: '华容道东北角',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '基础站位',
-                    description: '十字路口格子的南侧格子',
-                    imageUrl: './strats/idyll/overall.png',
-                    mask: 'radial-gradient(circle at 68% 37%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northeast-idle.png',
                 },
                 {
-                    mechanic: '种子弹放置',
-                    description: '优先级: H > D > T',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'scale(-1,1)',
-                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                    mechanic: '种子弹预站位',
+                    description: '放置优先级: H > D > T',
+                    imageUrl: './strats/ziyan/tiles-northeast-brambles-pre.png',
+                    mask: 'radial-gradient(circle at 83.5% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
-                    description: '十字路口格子上',
-                    imageUrl: './strats/idyll/wild-charge-nw.png',
-                    transform: 'scale(-1,1)',
-                    mask: 'radial-gradient(circle at 50.8% 50.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '基础站位上',
-                    imageUrl: './strats/idyll/begone-with-you-ne.png',
-                    mask: 'radial-gradient(circle at 63% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 62.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
-                    mechanic: '回旋式波动炮',
-                    description: '如果在危险区则优先级最低往安全区走\n如果在安全区则去十字路口南侧的格子跟随激光移动',
-                    imageUrl: './strats/idyll/spinny.png',
-                    mask: 'radial-gradient(circle at 78% 13%, black 5%, rgba(0, 0, 0, 0.2) 5%), radial-gradient(circle at 46% 60.7%, black 6%, rgba(0, 0, 0, 0.2) 6%)'
+                    mechanic: '回旋式波动炮-顺时针',
+                    description: '你在安全区：\n去十字路口南侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
+                    imageUrl: './strats/ziyan/tiles-north-cw.png',
+                    mask: 'radial-gradient(circle at 81.3% 82.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '回旋式波动炮-逆时针',
+                    description: '你在危险区：\n优先级最后往安全区走',
+                    imageUrl: './strats/ziyan/tiles-north-ccw.png',
+                    mask: 'radial-gradient(circle at 40.6% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的南侧格子',
-                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
-                    mask: 'radial-gradient(circle at 59% 31%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    description: '十字路口南侧的格子',
+                    imageUrl: './strats/ziyan/tiles-northwest-swap.png',
+                    mask: 'radial-gradient(circle at 47.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -8286,13 +8289,13 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
                     mechanic: '回旋式波动炮-顺时针',
@@ -8421,13 +8424,13 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.8% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 63.6% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 61.9% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
                     mechanic: '回旋式波动炮-顺时针',
@@ -9181,7 +9184,7 @@ const ziyanStrat: Strat = {
             alliance: 'C',
             role: 'Melee',
             party: 2,
-            notes: '右侧/东侧平台,以场外作为12点',
+            notes: '右侧/东侧平台，以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
@@ -9302,7 +9305,7 @@ const ziyanStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 1,
-            notes: '右侧/东侧平台,以场外作为12点',
+            notes: '右侧/东侧平台，以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
@@ -9423,7 +9426,7 @@ const ziyanStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 2,
-            notes: '右侧/东侧平台,以场外作为12点',
+            notes: '右侧/东侧平台，以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
