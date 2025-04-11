@@ -7096,7 +7096,7 @@ const ziyanStrat: Strat = {
             alliance: 'A',
             role: 'Melee',
             party: 2,
-            notes: '左侧/西侧平台 | D2',
+            notes: '左侧/西侧平台,以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
@@ -7180,7 +7180,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 50.0% 78.5%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 78.9% 48.8%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -7191,7 +7191,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 17.9% 46.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -7217,7 +7217,7 @@ const ziyanStrat: Strat = {
             alliance: 'A',
             role: 'Ranged',
             party: 1,
-            notes: '左侧/西侧平台 | D3',
+            notes: '左侧/西侧平台,以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
@@ -7301,7 +7301,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 50.0% 78.5%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 78.9% 48.8%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -7312,7 +7312,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 50.0% 10.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -7338,7 +7338,7 @@ const ziyanStrat: Strat = {
             alliance: 'A',
             role: 'Ranged',
             party: 2,
-            notes: '左侧/西侧平台 | D4',
+            notes: '左侧/西侧平台,以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
@@ -7422,7 +7422,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 50.0% 78.5%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 78.9% 48.8%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -7433,7 +7433,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 84.4% 46.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -8365,45 +8365,48 @@ const ziyanStrat: Strat = {
             role: 'Healer',
             party: 1,
             notes: '华容道东北角',
-            startingArea: 'Platform',
+            startingArea: 'Tiles',
             strats: [
                 {
                     mechanic: '基础站位',
                     description: '十字路口格子的北侧格子',
-                    imageUrl: './strats/idyll/overall.png',
-                    mask: 'radial-gradient(circle at 68% 13%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
+                    imageUrl: './strats/ziyan/tiles-northeast-idle.png',
                 },
                 {
-                    mechanic: '种子弹放置',
-                    description: '优先级: H > D > T',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'scale(-1,1)',
-                    mask: 'radial-gradient(circle at 69% 18%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 69% 51%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                    mechanic: '种子弹预站位',
+                    description: '放置优先级: H > D > T',
+                    imageUrl: './strats/ziyan/tiles-northeast-brambles-pre.png',
+                    mask: 'radial-gradient(circle at 58.9% 17.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
-                    description: '十字路口格子的北侧格子',
-                    imageUrl: './strats/idyll/wild-charge-nw.png',
-                    transform: 'scale(-1,1)',
-                    mask: 'radial-gradient(circle at 50.8% 24.6%, black 20%, rgba(0, 0, 0, 0.2) 20%)'
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '基础站位上',
-                    imageUrl: './strats/idyll/begone-with-you-ne.png',
-                    mask: 'radial-gradient(circle at 63% 11%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 61.9% 24.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
-                    mechanic: '回旋式波动炮',
-                    description: '如果在危险区则优先级次于T往安全区走\n如果在安全区则去垂直方向的突起',
-                    imageUrl: './strats/idyll/spinny.png',
-                    mask: 'radial-gradient(circle at 77% 4%, black 5%, rgba(0, 0, 0, 0.2) 5%), radial-gradient(circle at 33% 60.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                    mechanic: '回旋式波动炮-顺时针',
+                    description: '你在安全区：\n去垂直方向的突起',
+                    imageUrl: './strats/ziyan/tiles-north-cw.png',
+                    mask: 'radial-gradient(circle at 81.3% 16.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '回旋式波动炮-逆时针',
+                    description: '你在危险区：\n优先级次于T往安全区走',
+                    imageUrl: './strats/ziyan/tiles-north-ccw.png',
+                    mask: 'radial-gradient(circle at 31.3% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '换线',
-                    description: '华容道东北角',
-                    imageUrl: './strats/idyll/looming-chaos-tilee.png',
-                    mask: 'radial-gradient(circle at 60% 19%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    description: '十字路口格子上',
+                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
+                mask: 'radial-gradient(circle at 47.3% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -8411,72 +8414,132 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '踩塔',
                     description: '北/西',
-                    imageUrl: './strats/idyll/towers-post-swap-w.png',
-                    mask: 'radial-gradient(circle at 42.2% 31%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 66% 50.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)'
+                    imageUrl: './strats/ziyan/postswap-platform-towers.png',
+                    mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
+                    }
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈内西\n和B队D2一组',
-                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
-                    mask: 'radial-gradient(circle at 56% 62%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    description: '目标圈内 西 和D2一组',
+                    imageUrl: './strats/ziyan/postswap-platform-pairs.png',
+                    mask: 'radial-gradient(circle at 27.5% 47.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    alignmentTransforms: {
+                        'original': '',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
+                    }
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '平台内侧 靠西',
-                    imageUrl: './strats/idyll/begone-with-you-w.png',
-                    mask: 'radial-gradient(circle at 58% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 80% 62.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': './strats/ziyan/platform-west-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 37.5% 80%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
-            ]
+            ],
+            anotherSwapNote: "我换到了华容道的西北角！现在怎么站?",
+            anotherSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
+            anotherSwapStrats:[
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
+                    mask: 'radial-gradient(circle at 15.9% 44.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 37.2% 24.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ],
+            thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
+            thirdSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
+            thirdSwapStrats:[
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
+                    mask: 'radial-gradient(circle at 62.3% 83.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ],
         },
         {
             alliance: 'C',
             role: 'Healer',
             party: 2,
-            notes: '右侧/东侧平台',
+            notes: '右侧/东侧平台，以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
                     description: '目标圈外 北 和MT一组',
-                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 32% 48%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-pairs-east.png',
+                    mask: 'radial-gradient(circle at 50% 16%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散',
                     description: '东北偏北',
-                    imageUrl: './strats/idyll/spread.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 33% 35.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    imageUrl: './strats/ziyan/platform-spread-east.png',
+                    mask: 'radial-gradient(circle at 65% 10%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 74.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-towers-west.png',
+                    mask: 'radial-gradient(circle at 82% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 78%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '引导种子',
                     description: '外侧靠东的种子',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 23% 18%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/platform-east-brambles.png',
+                    mask: 'radial-gradient(circle at 73.2% 66.5%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8486,19 +8549,24 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分散式波动炮',
                     description: '平台内侧 靠西',
-                    imageUrl: './strats/idyll/begone-with-you-e.png',
-                    mask: 'radial-gradient(circle at 43% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-east-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 20% 37.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-east-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 37.5% 80%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
                 {
                     mechanic: '换线',
                     description: '平台外侧',
-                    imageUrl: './strats/idyll/looming-chaos-e.png',
-                    mask: 'radial-gradient(circle at 73% 51%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/platform-east-swap.png',
+                    mask: 'radial-gradient(circle at 18% 77%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8506,83 +8574,96 @@ const ziyanStrat: Strat = {
                     }
                 },
             ],
-            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
-            swapStrats: [
-                {
-                    mechanic: '基础站位',
-                    description: '十字路口格子的北侧格子',
-                    imageUrl: './strats/idyll/overall.png',
-                    mask: 'radial-gradient(circle at 29% 17%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 29% 60%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
-                },
-                {
-                    mechanic: '分摊',
-                    description: '看图',
-                    imageUrl: './strats/idyll/wild-charge-tiles.png',
-                    mask: 'radial-gradient(circle at 18.8% 10.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 19% 83%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
+            anotherSwapNote: "我换到了华容道的西北角！现在怎么站?",
+            anotherSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
+            anotherSwapStrats:[
                 {
                     mechanic: '潜地炮预站位',
-                    description: '看图',
-                    imageUrl: './strats/idyll/chaser.png',
-                    mask: 'radial-gradient(circle at 22% 11%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 9% 78%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
+                    mask: 'radial-gradient(circle at 15.9% 44.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '看图',
-                    imageUrl: './strats/idyll/begone-with-you.png',
-                    mask: 'radial-gradient(circle at 29.8% 9.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 30% 61%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 37.2% 24.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
-            ]
+            ],
+            thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
+            thirdSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
+            thirdSwapStrats:[
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
+                    mask: 'radial-gradient(circle at 62.3% 83.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ],
         },
         {
             alliance: 'C',
             role: 'Melee',
             party: 1,
-            notes: '右侧/东侧平台 | D1',
+            notes: '右侧/东侧平台，以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内西\n 和D3一组',
-                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 60% 55%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    description: '目标圈内 西 和D3一组',
+                    imageUrl: './strats/ziyan/platform-pairs-east.png',
+                    mask: 'radial-gradient(circle at 28% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散',
                     description: '西',
-                    imageUrl: './strats/idyll/spread.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 61% 69.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    imageUrl: './strats/ziyan/platform-spread-east.png',
+                    mask: 'radial-gradient(circle at 6.6% 45%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '踩塔',
                     description: '北/西',
-                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-towers-east.png',
+                    mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '引导种子',
                     description: '不引导，站在小云妈脚下',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 23% 35%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/platform-east-brambles.png',
+                    mask: 'radial-gradient(circle at 85.7% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8592,19 +8673,24 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分散式波动炮',
                     description: '平台外侧 靠东',
-                    imageUrl: './strats/idyll/begone-with-you-e.png',
-                    mask: 'radial-gradient(circle at 74% 61%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-east-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 65.5% 62.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-east-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 62.5% 34.4%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
                 {
                     mechanic: '换线',
                     description: '平台外侧',
-                    imageUrl: './strats/idyll/looming-chaos-e.png',
-                    mask: 'radial-gradient(circle at 71% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-west-swap.png',
+                    mask: 'radial-gradient(circle at 18% 15.4%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8612,83 +8698,96 @@ const ziyanStrat: Strat = {
                     }
                 },
             ],
-            swapNote: "我换到了华容道的西北或者西南角！现在怎么站?",
-            swapStrats: [
-                {
-                    mechanic: '基础站位',
-                    description: 'South from 十字路口格子上',
-                    imageUrl: './strats/idyll/overall.png',
-                    mask: 'radial-gradient(circle at 28% 38%, black 8%, rgba(0, 0, 0, 0.2) 8%), radial-gradient(circle at 28% 82%, black 8%, rgba(0, 0, 0, 0.2) 8%)'
-                },
-                {
-                    mechanic: '分摊',
-                    description: '看图',
-                    imageUrl: './strats/idyll/wild-charge-tiles.png',
-                    mask: 'radial-gradient(circle at 18% 19.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 18% 92%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
+            anotherSwapNote: "我换到了华容道的西北角！现在怎么站?",
+            anotherSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
+            anotherSwapStrats:[
                 {
                     mechanic: '潜地炮预站位',
-                    description: '看图',
-                    imageUrl: './strats/idyll/chaser.png',
-                    mask: 'radial-gradient(circle at 11% 21%, black 9%, rgba(0, 0, 0, 0.2) 9%), radial-gradient(circle at 21% 89%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
+                    mask: 'radial-gradient(circle at 62.3% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '看图',
-                    imageUrl: './strats/idyll/begone-with-you.png',
-                    mask: 'radial-gradient(circle at 29.8% 34.6%, black 7%, rgba(0, 0, 0, 0.2) 7%), radial-gradient(circle at 30% 87%, black 7%, rgba(0, 0, 0, 0.2) 7%)',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 38.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },                
+            ],
+            thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
+            thirdSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
+            thirdSwapStrats:[
+                {
+                    mechanic: '潜地炮预站位',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
+                    mask: 'radial-gradient(circle at 14.3% 54.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
-            ]
+                {
+                    mechanic: '凝缩式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                },
+                {
+                    mechanic: '分散式波动炮',
+                    description: '',
+                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 38.1% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
+            ],
         },
         {
             alliance: 'C',
             role: 'Melee',
             party: 2,
-            notes: '右侧/东侧平台 | D2',
+            notes: '右侧/东侧平台,以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈内东\n和D4一组',
-                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 60% 35%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    description: '目标圈内 东 和D4一组',
+                    imageUrl: './strats/ziyan/platform-pairs-east.png',
+                    mask: 'radial-gradient(circle at 72% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散',
                     description: '东',
-                    imageUrl: './strats/idyll/spread.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 56% 19.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    imageUrl: './strats/ziyan/platform-spread-east.png',
+                    mask: 'radial-gradient(circle at 91% 45%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 76.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-towers-east.png',
+                    mask: 'radial-gradient(circle at 82% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 78%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '引导种子',
                     description: '内侧靠东的种子',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 58% 28%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/platform-east-brambles.png',
+                    mask: 'radial-gradient(circle at 25.6% 68.9%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8698,19 +8797,24 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分散式波动炮',
                     description: '平台外侧 靠西',
-                    imageUrl: './strats/idyll/begone-with-you-e.png',
-                    mask: 'radial-gradient(circle at 75% 40%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-east-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 67.5% 38.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-east-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 38.1% 32.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
                 {
                     mechanic: '换线',
                     description: '平台内侧',
-                    imageUrl: './strats/idyll/looming-chaos-e.png',
-                    mask: 'radial-gradient(circle at 36% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-east-swap.png',
+                    mask: 'radial-gradient(circle at 12.3% 18.0%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8723,35 +8827,40 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/idyll/towers-post-swap-w.png',
-                    mask: 'radial-gradient(circle at 79.2% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 62% 29.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/postswap-platform-towers.png',
+                    mask: 'radial-gradient(circle at 50.0% 78.5%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 78.9% 48.8%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外西\n 和原内场的奶一组',
-                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
-                    mask: 'radial-gradient(circle at 56% 71%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    description: '目标圈外 西\n和原内场的奶一组',
+                    imageUrl: './strats/ziyan/postswap-platform-pairs.png',
+                    mask: 'radial-gradient(circle at 17.9% 46.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散式波动炮',
-                    description: '平台内侧 靠东',
-                    imageUrl: './strats/idyll/begone-with-you-w.png',
-                    mask: 'radial-gradient(circle at 20% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    description: '平台外侧 靠西',
+                    imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 35% 60%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-west-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 40% 35%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
             ]
         },
@@ -8759,51 +8868,47 @@ const ziyanStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 1,
-            notes: '右侧/东侧平台 | D3',
+            notes: '右侧/东侧平台,以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外西\n和D1一组',
-                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 60% 68%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    description: '目标圈外 西 和D1一组',
+                    imageUrl: './strats/ziyan/platform-pairs-east.png',
+                    mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散',
                     description: '西北偏西',
-                    imageUrl: './strats/idyll/spread.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 41% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    imageUrl: './strats/ziyan/platform-spread-east.png',
+                    mask: 'radial-gradient(circle at 15% 17.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '踩塔',
                     description: '北/西',
-                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 30.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 70.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-towers-east.png',
+                    mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '引导种子',
                     description: '内侧靠西的种子',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 58% 42%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/platform-east-brambles.png',
+                    mask: 'radial-gradient(circle at 23.4% 30.6%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8813,19 +8918,24 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分散式波动炮',
                     description: '外环上 东侧塔附近',
-                    imageUrl: './strats/idyll/begone-with-you-e.png',
-                    mask: 'radial-gradient(circle at 62% 82%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-east-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 71.5% 83.6%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-east-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 83.6% 28.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
                 {
                     mechanic: '换线',
                     description: '平台内侧',
-                    imageUrl: './strats/idyll/looming-chaos-e.png',
-                    mask: 'radial-gradient(circle at 36% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-east-swap.png',
+                    mask: 'radial-gradient(circle at 12.3% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8838,35 +8948,40 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/idyll/towers-post-swap-w.png',
-                    mask: 'radial-gradient(circle at 79.2% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 62% 29.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/postswap-platform-towers.png',
+                    mask: 'radial-gradient(circle at 50.0% 78.5%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 78.9% 48.8%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外西\n 和原内场T一组',
-                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
-                    mask: 'radial-gradient(circle at 40% 55%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    description: '目标圈外 北 和原内场T一组',
+                    imageUrl: './strats/ziyan/postswap-platform-pairs.png',
+                    mask: 'radial-gradient(circle at 50.0% 10.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '外环上 东侧塔附近',
-                    imageUrl: './strats/idyll/begone-with-you-w.png',
-                    mask: 'radial-gradient(circle at 33% 20%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.8% 16.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-west-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 83.3% 31.8%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
             ]
         },
@@ -8874,51 +8989,47 @@ const ziyanStrat: Strat = {
             alliance: 'C',
             role: 'Ranged',
             party: 2,
-            notes: '右侧/东侧平台 | D4',
+            notes: '右侧/东侧平台,以场外作为12点',
             startingArea: 'Platform',
             strats: [
                 {
                     mechanic: '分摊',
-                    description: '目标圈外东\n和D2一组',
-                    imageUrl: './strats/idyll/pair-stack-pre-swap.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 62% 22%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    description: '目标圈外 东 和D2一组',
+                    imageUrl: './strats/ziyan/platform-pairs-east.png',
+                    mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散',
                     description: '东北偏东',
-                    imageUrl: './strats/idyll/spread.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 41% 23.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
+                    imageUrl: './strats/ziyan/platform-spread-east.png',
+                    mask: 'radial-gradient(circle at 86.8% 22.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/idyll/towers-pre-swap-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 76.2% 50%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 53% 28.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-towers-east.png',
+                    mask: 'radial-gradient(circle at 82% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 78%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '引导种子',
-                    description: '北',
-                    imageUrl: './strats/idyll/brambles-w.png',
-                    transform: 'rotate(180deg)',
-                    mask: 'radial-gradient(circle at 24% 53%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    description: '外侧靠西的种子',
+                    imageUrl: './strats/ziyan/platform-east-brambles.png',
+                    mask: 'radial-gradient(circle at 71.3% 26.9%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8928,19 +9039,24 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '分散式波动炮',
                     description: '外环上 西侧塔附近',
-                    imageUrl: './strats/idyll/begone-with-you-e.png',
-                    mask: 'radial-gradient(circle at 64% 21%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-east-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 72.5% 16.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(270deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-east-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 16.7% 27.5%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
                 {
                     mechanic: '换线',
                     description: '平台内侧',
-                    imageUrl: './strats/idyll/looming-chaos-e.png',
-                    mask: 'radial-gradient(circle at 36% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/platform-west-swap.png',
+                    mask: 'radial-gradient(circle at 12.3% 82%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -8953,35 +9069,40 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/idyll/towers-post-swap-w.png',
-                    mask: 'radial-gradient(circle at 79.2% 49%, black 15%, rgba(0, 0, 0, 0.2) 15%), radial-gradient(circle at 62% 29.7%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    imageUrl: './strats/ziyan/postswap-platform-towers.png',
+                    mask: 'radial-gradient(circle at 50.0% 78.5%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 78.9% 48.8%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分摊',
-                    description: '目标圈外东\n和原内场DPS一组',
-                    imageUrl: './strats/idyll/pair-stack-post-swap.png',
-                    mask: 'radial-gradient(circle at 57% 36%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    description: '目标圈外 东\n和原内场DPS一组',
+                    imageUrl: './strats/ziyan/postswap-platform-pairs.png',
+                    mask: 'radial-gradient(circle at 84.4% 46.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
+                        'truenorth': 'rotate(270deg)',
+                        'addrelative': '',
                     }
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '外环上 西侧塔附近',
-                    imageUrl: './strats/idyll/begone-with-you-w.png',
-                    mask: 'radial-gradient(circle at 32% 80%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                    alignmentTransforms: {
+                    imageUrl: './strats/ziyan/platform-west-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 29.1% 83.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    alignmentImages: {
                         'original': '',
                         'truenorth': '',
-                        'addrelative': 'rotate(90deg)',
-                    }
+                        'addrelative': './strats/ziyan/platform-west-aoe-spread-rotated.png',
+                    },
+                    alignmentMasks: {
+                        'original': '',
+                        'truenorth': '',
+                        'addrelative': 'radial-gradient(circle at 16.1% 29.1%, black 12%, rgba(0, 0, 0, 0.4) 12%)',
+                    },
                 },
             ]
         },
