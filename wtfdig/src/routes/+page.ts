@@ -6541,7 +6541,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6563,7 +6563,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6595,7 +6595,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 84% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 84% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6677,7 +6677,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6699,7 +6699,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6731,7 +6731,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6812,7 +6812,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6834,7 +6834,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6936,7 +6936,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -6958,7 +6958,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7060,7 +7060,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7082,7 +7082,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7477,7 +7477,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7559,7 +7559,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7581,7 +7581,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7613,7 +7613,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 16% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 16% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7695,7 +7695,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7717,7 +7717,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7749,7 +7749,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7830,7 +7830,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7852,7 +7852,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7884,7 +7884,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7965,7 +7965,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -7987,7 +7987,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8019,7 +8019,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8037,7 +8037,7 @@ const ziyanStrat: Strat = {
                     mechanic: '回旋式波动炮-逆时针',
                     description: '你在安全区：\n去十字路口南侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
-                    mask: 'radial-gradient(circle at 18.7% 82.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                    mask: 'radial-gradient(circle at 18.7% 80.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '换线',
@@ -8100,7 +8100,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8122,7 +8122,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8137,7 +8137,7 @@ const ziyanStrat: Strat = {
             role: 'Melee',
             party: 2,
             notes: '华容道东北角',
-            startingArea: 'Platform',
+            startingArea: 'Tiles',
             strats: [
                 {
                     mechanic: '基础站位',
@@ -8154,7 +8154,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8166,19 +8166,19 @@ const ziyanStrat: Strat = {
                     mechanic: '回旋式波动炮-顺时针',
                     description: '你在安全区：\n去十字路口南侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
-                    mask: 'radial-gradient(circle at 81.3% 82.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                    mask: 'radial-gradient(circle at 81.3% 80.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
                     description: '你在危险区：\n优先级最后往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
-                    mask: 'radial-gradient(circle at 40.6% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                    mask: 'radial-gradient(circle at 39.6% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '换线',
                     description: '十字路口南侧的格子',
                     imageUrl: './strats/ziyan/tiles-northwest-swap.png',
-                    mask: 'radial-gradient(circle at 47.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 49.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -8235,7 +8235,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8257,7 +8257,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8289,13 +8289,13 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 38.1% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
                     mechanic: '回旋式波动炮-顺时针',
@@ -8370,7 +8370,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8392,7 +8392,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8424,7 +8424,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8447,7 +8447,7 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '换线',
                     description: '十字路口格子上',
-                    imageUrl: './strats/ziyan/tiles-southwest-swap.png',
+                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
                 mask: 'radial-gradient(circle at 47.3% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
@@ -8505,7 +8505,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8527,7 +8527,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8629,7 +8629,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8651,7 +8651,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8683,7 +8683,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 16% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 16% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8765,7 +8765,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8787,7 +8787,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8819,7 +8819,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8900,7 +8900,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -8922,7 +8922,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -9024,7 +9024,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -9046,7 +9046,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -9148,7 +9148,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -9170,7 +9170,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)'
+                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
