@@ -16,7 +16,7 @@
         type: 'alert',
         title: '更新日志',
         body: 
-`4/9/2025：增加了子言视频内idyll改的图片资源的选项，为子言选项中每种不同换位后位置添加了单独的小窗
+`4/9/2025：增加了子言+MMW视频内idyll改的图片资源的选项，为子言选项中每种不同换位后位置添加了单独的小窗
 3/20/2025：添加了中文翻译(add Chinese translation)
 1/21/2025: added warning for core-lateral and lateral-core swap in 7.16
 1/20/2025: added more comprehensive post-swap spots to HealerOut
@@ -63,7 +63,7 @@
                 <a target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline" href="https://bbs.nga.cn/read.php?tid=43666710">
                     NGA帖子
                 </a>
-                回复
+                回复<br>谢谢素素做的部署!笔芯
             </div>
             <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
         </div>
