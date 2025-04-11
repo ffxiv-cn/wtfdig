@@ -48,7 +48,7 @@
 					<h2>你用哪个打法？</h2>
 					<RadioGroup>
 						<RadioItem bind:group={stratName} name="stratName" value={'ziyan'}>子言+MMW</RadioItem>
-						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>田园郡改</RadioItem>
+						<!-- <RadioItem bind:group={stratName} name="stratName" value={'idyll'}>田园郡改</RadioItem> -->
 						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'codcar'}>CODCAR</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'healerout'}>HealerOut</RadioItem>

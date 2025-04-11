@@ -7483,7 +7483,7 @@ const ziyanStrat: Strat = {
                     mechanic: '分散式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 63.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
                     mechanic: '回旋式波动炮-顺时针',
@@ -7619,19 +7619,19 @@ const ziyanStrat: Strat = {
                     mechanic: '分散式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37% 57.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    mask: 'radial-gradient(circle at 37% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
                     mechanic: '回旋式波动炮-顺时针',
                     description: '你在危险区：\n优先级最高往安全区走',
                     imageUrl: './strats/ziyan/tiles-south-cw.png',
-                    mask: 'radial-gradient(circle at 81.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                    mask: 'radial-gradient(circle at 19.2% 48.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
                     description: '你在安全区：\n去水平方向的突起',
                     imageUrl: './strats/ziyan/tiles-south-ccw.png',
-                    mask: 'radial-gradient(circle at 6.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                    mask: 'radial-gradient(circle at 93.6% 49.1%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '换线',
@@ -8177,7 +8177,7 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '换线',
                     description: '十字路口南侧的格子',
-                    imageUrl: './strats/ziyan/tiles-northwest-swap.png',
+                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
                     mask: 'radial-gradient(circle at 49.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
