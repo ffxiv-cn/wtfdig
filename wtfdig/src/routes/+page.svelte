@@ -47,7 +47,8 @@
 				<div>
 					<h2>你用哪个打法？</h2>
 					<RadioGroup>
-						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>イディル改</RadioItem>
+						<RadioItem bind:group={stratName} name="stratName" value={'ziyan'}>子言+MMW</RadioItem>
+						<!-- <RadioItem bind:group={stratName} name="stratName" value={'idyll'}>田园郡改</RadioItem> -->
 						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'codcar'}>CODCAR</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'healerout'}>HealerOut</RadioItem>
@@ -88,6 +89,8 @@
 					<img style:max-height={'400px'} src={'./strats/healerout/overall.png'} />
 				{:else if stratPackage?.stratName === 'idyll'}
 					<img style:max-height={'400px'} src={'./strats/idyll/overall.png'} />
+				{:else if stratPackage?.stratName === 'ziyan'}
+					<img style:max-height={'400px'} src={'./strats/ziyan/overall.png'} />
 				{/if}
 			</div>
 		</div>
@@ -163,6 +166,66 @@
 									{/if}
 									<div class="grid grid-cols-3 gap-2">
 										{#each strat.swapStrats as step}
+											{#key [spotlight, alignment]}
+											<div class="space-y-4" class:col-span-2={step.alignmentImages && step.alignmentImages[alignment]}>
+												<div class="uppercase text-xl">{step.mechanic}</div> 
+												<div class="whitespace-pre-wrap text-l">{step.description}</div>
+												<img src={(step.alignmentImages && step.alignmentImages[alignment]) ? step.alignmentImages[alignment] : step.imageUrl} style:mask-image={getMask(step)} style:transform={step.alignmentTransforms ? step.alignmentTransforms[alignment] : step.transform} />
+											</div>
+											{/key}
+										{/each}
+									</div>
+								</svelte:fragment>
+							</AccordionItem>
+						</Accordion>
+					</div>
+				{/if}
+				{#if strat?.anotherSwapNote && strat?.anotherSwapStrats}
+					<div class="col-span-3">
+						<Accordion class="card variant-ghost-secondary" >
+							<AccordionItem open padding="py-4 px-4">
+								<svelte:fragment slot="lead"><img width="24px" src={"./swap-icon.png"} /></svelte:fragment>
+								<svelte:fragment slot="summary"><span class="text-xl">{strat.anotherSwapNote}</span></svelte:fragment>
+								<svelte:fragment slot="content">
+									{#if strat?.anotherSwapWarning}
+										<aside class="alert variant-ghost-error">
+											<div class="alert-message">
+												<p>{strat.anotherSwapWarning}</p>
+											</div>
+										</aside>
+									{/if}
+									<div class="grid grid-cols-3 gap-2">
+										{#each strat.anotherSwapStrats as step}
+											{#key [spotlight, alignment]}
+											<div class="space-y-4" class:col-span-2={step.alignmentImages && step.alignmentImages[alignment]}>
+												<div class="uppercase text-xl">{step.mechanic}</div> 
+												<div class="whitespace-pre-wrap text-l">{step.description}</div>
+												<img src={(step.alignmentImages && step.alignmentImages[alignment]) ? step.alignmentImages[alignment] : step.imageUrl} style:mask-image={getMask(step)} style:transform={step.alignmentTransforms ? step.alignmentTransforms[alignment] : step.transform} />
+											</div>
+											{/key}
+										{/each}
+									</div>
+								</svelte:fragment>
+							</AccordionItem>
+						</Accordion>
+					</div>
+				{/if}
+				{#if strat?.thirdSwapNote && strat?.thirdSwapStrats}
+					<div class="col-span-3">
+						<Accordion class="card variant-ghost-secondary" >
+							<AccordionItem open padding="py-4 px-4">
+								<svelte:fragment slot="lead"><img width="24px" src={"./swap-icon.png"} /></svelte:fragment>
+								<svelte:fragment slot="summary"><span class="text-xl">{strat.thirdSwapNote}</span></svelte:fragment>
+								<svelte:fragment slot="content">
+									{#if strat?.thirdSwapWarning}
+										<aside class="alert variant-ghost-error">
+											<div class="alert-message">
+												<p>{strat.thirdSwapWarning}</p>
+											</div>
+										</aside>
+									{/if}
+									<div class="grid grid-cols-3 gap-2">
+										{#each strat.thirdSwapStrats as step}
 											{#key [spotlight, alignment]}
 											<div class="space-y-4" class:col-span-2={step.alignmentImages && step.alignmentImages[alignment]}>
 												<div class="uppercase text-xl">{step.mechanic}</div> 
