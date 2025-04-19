@@ -8208,9 +8208,9 @@ const ziyanStrat: Strat = {
                     }
                 },
             ],
-            swapNote: "我换到了华容道的东北角！现在怎么站?",
-            swapWarning:"请迅速挑衅重新建立仇恨 T需要换到逆时针方向的路口上（如潜地炮预站位）",
-            swapStrats: [
+            anotherSwapNote: "我换到了华容道的东北角！现在怎么站?",
+            anotherSwapWarning:"请迅速挑衅重新建立仇恨 T需要换到逆时针方向的路口上（如潜地炮预站位）",
+            anotherSwapStrats: [
                 {
                     mechanic: '潜地炮预站位',
                     description: '',
@@ -8230,9 +8230,9 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 37.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
-            anotherSwapNote: "我换到了华容道的东南角！现在怎么站?",
-            anotherSwapWarning:"请迅速挑衅重新建立仇恨 T需要换到逆时针方向的路口上（如潜地炮预站位）",
-            anotherSwapStrats: [
+            thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
+            thirdSwapWarning:"请迅速挑衅重新建立仇恨 T需要换到逆时针方向的路口上（如潜地炮预站位）",
+            thirdSwapStrats: [
                 {
                     mechanic: '潜地炮预站位',
                     description: '',

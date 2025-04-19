@@ -151,7 +151,7 @@
 					{/key}
 				{/each}
 				{#if strat?.swapNote && strat?.swapStrats}
-					<div class="col-span-3">
+					<div class="col-span-6">
 						<Accordion class="card variant-ghost-secondary" >
 							<AccordionItem open padding="py-4 px-4">
 								<svelte:fragment slot="lead"><img width="24px" src={"./swap-icon.png"} /></svelte:fragment>
