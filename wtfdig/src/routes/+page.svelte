@@ -129,7 +129,7 @@
 			</div>
 			<div class="flex flex-wrap items-center justify-between my-4">
 				<div class="text-xl">{strat.notes}</div>
-				{#if strat.strats.some(strat => strat.alignmentTransforms)|| strat.anotherSwapStrats?.some(strat => strat.alignmentImages)}
+				{#if strat.strats.some(strat => strat.alignmentTransforms)|| strat.swapStrats?.some(strat => strat.alignmentImages)}
 					<div class="content-center">
 						<RadioGroup>
 							<RadioItem bind:group={alignment} name="alignment" value={"original"}>攻略原始</RadioItem>
