@@ -8319,7 +8319,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -8330,7 +8330,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 51% 30%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -8460,7 +8460,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -8471,7 +8471,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 27.5% 47.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -9213,7 +9213,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -9497,7 +9497,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 18% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 22%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
@@ -9508,7 +9508,7 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 27.5% 47.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)',
                     alignmentTransforms: {
                         'original': '',
-                        'truenorth': 'rotate(270deg)',
+                        'truenorth': 'rotate(90deg)',
                         'addrelative': '',
                     }
                 },
