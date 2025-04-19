@@ -150,6 +150,17 @@
 					</div>
 					{/key}
 				{/each}
+				{#if strat?.activePivot}
+					{#each strat.activePivot as step}
+						{#key [spotlight, alignment]}
+						<div class="space-y-4 col-span-3">
+							<div class="uppercase text-xl">{step.mechanic}</div> 
+							<div class="whitespace-pre-wrap text-l">{step.description}</div>
+							<img src={(step.alignmentImages && step.alignmentImages[alignment]) ? step.alignmentImages[alignment] : step.imageUrl} style:mask-image={getMask(step)} style:transform={step.alignmentTransforms ? step.alignmentTransforms[alignment] : step.transform} />
+						</div>
+						{/key}
+					{/each}
+				{/if}
 				{#if strat?.swapNote && strat?.swapStrats}
 					<div class="col-span-6">
 						<Accordion class="card variant-ghost-secondary" >

@@ -31,6 +31,7 @@ export interface PlayerStrats {
     notes: string;
     startingArea: StartingArea;
     strats: MechanicStrat[];
+    activePivot?:MechanicStrat[];
     swapNote?: string;
     swapWarning?: string;
     swapStrats?: MechanicStrat[];
@@ -8284,6 +8285,14 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 63% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/ziyan/tiles-northwest-swap.png',
+                mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
                     description: '你在危险区：\n优先级最高往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
@@ -8294,12 +8303,6 @@ const ziyanStrat: Strat = {
                     description: '你在安全区：\n去水平方向的突起',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
                     mask: 'radial-gradient(circle at 6.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子的东侧格子',
-                    imageUrl: './strats/ziyan/tiles-northwest-swap.png',
-                mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
