@@ -8221,14 +8221,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 20.5% 64.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.9% 49.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -8243,14 +8243,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 19.8% 34.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.2% 52.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ]
         },
@@ -8268,9 +8268,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-brambles-pre.png',
                     mask: 'radial-gradient(circle at 65% 38%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -8286,7 +8290,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的东侧格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-swap.png',
                 mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -8294,13 +8298,13 @@ const ziyanStrat: Strat = {
             activePivot:[
                 {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在危险区：\n优先级最高往安全区走',
+                    description: '你在危险区： 优先级最高往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
                     mask: 'radial-gradient(circle at 81.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在安全区：\n去水平方向的突起',
+                    description: '你在安全区： 去水平方向的突起',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
                     mask: 'radial-gradient(circle at 6.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
@@ -8359,14 +8363,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 20.5% 64.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.9% 49.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -8381,14 +8385,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 19.8% 34.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.2% 52.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -8406,9 +8410,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-brambles-pre.png',
                     mask: 'radial-gradient(circle at 41.1% 17.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -8423,22 +8431,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 37.2% 24.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/ziyan/tiles-northwest-swap.png',
+                mask: 'radial-gradient(circle at 52.7% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在危险区：\n优先级次于T往安全区走',
+                    description: '你在危险区： 优先级次于T往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
                     mask: 'radial-gradient(circle at 68.7% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在安全区：\n去垂直方向的突起',
+                    description: '你在安全区： 去垂直方向的突起',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
                     mask: 'radial-gradient(circle at 18.7% 16.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子上',
-                    imageUrl: './strats/ziyan/tiles-northwest-swap.png',
-                mask: 'radial-gradient(circle at 52.7% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
@@ -8489,19 +8499,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 85.6% 61.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 38.1% 13.8%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 84.8% 61.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 35.4% 50.1%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 47.6% 36.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.9% 24.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.6% 70.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.2% 26.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -8511,19 +8521,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 83.9% 36.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 85.1% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 54.9% 84.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 37.1% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 49.6% 61.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.7% 29.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.4% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.8% 75.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -8613,19 +8623,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 85.6% 61.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 38.1% 13.8%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 84.8% 61.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 35.4% 50.1%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 47.6% 36.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.9% 24.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.6% 70.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.2% 26.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -8635,19 +8645,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 83.9% 36.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 85.1% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 54.9% 84.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 37.1% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 49.6% 61.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.7% 29.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.4% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.8% 75.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -8737,19 +8747,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 35.2% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 38.1% 13.8%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 84.8% 61.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 35.4% 50.1%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 47.6% 36.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.6% 70.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.2% 26.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -8759,19 +8769,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 54.4% 84.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 85.1% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 54.9% 84.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 37.1% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 49.6% 61.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.9% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.4% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.8% 75.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -9152,9 +9162,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-brambles-pre.png',
                     mask: 'radial-gradient(circle at 65% 62%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9169,22 +9183,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 63.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子的东侧格子',
+                    imageUrl: './strats/ziyan/tiles-southwest-swap.png',
+                mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot: [
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在安全区：\n去水平方向的突起',
+                    description: '你在安全区： 去水平方向的突起',
                     imageUrl: './strats/ziyan/tiles-south-cw.png',
                     mask: 'radial-gradient(circle at 6.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在危险区：\n优先级最高往安全区走',
+                    description: '你在危险区： 优先级最高往安全区走',
                     imageUrl: './strats/ziyan/tiles-south-ccw.png',
                     mask: 'radial-gradient(circle at 81.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子的东侧格子',
-                    imageUrl: './strats/ziyan/tiles-southwest-swap.png',
-                mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
@@ -9241,14 +9257,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 20.5% 64.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.9% 49.0%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -9263,14 +9279,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 17.3% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 19.8% 34.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 31.2% 52.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -9288,9 +9304,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-brambles-pre.png',
                     mask: 'radial-gradient(circle at 35% 62%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9305,22 +9325,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 37% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子的西侧格子',
+                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
+                mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot: [
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在危险区：\n优先级最高往安全区走',
+                    description: '你在危险区： 优先级最高往安全区走',
                     imageUrl: './strats/ziyan/tiles-south-cw.png',
                     mask: 'radial-gradient(circle at 19.2% 48.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在安全区：\n去水平方向的突起',
+                    description: '你在安全区： 去水平方向的突起',
                     imageUrl: './strats/ziyan/tiles-south-ccw.png',
                     mask: 'radial-gradient(circle at 93.6% 49.1%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子的西侧格子',
-                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
-                mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -9377,14 +9399,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 70.0% 49.6%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
@@ -9394,21 +9416,21 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 81.0% 45.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 84.5% 45.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 79.2% 33.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 70.1% 52.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
-            ]
+            ],
         },
         {
             alliance: 'B',
@@ -9424,9 +9446,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-brambles-pre.png',
                     mask: 'radial-gradient(circle at 15.6% 59.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9441,23 +9467,26 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
-                    mechanic: '回旋式波动炮-顺时针',
-                    description: '你在安全区：\n去十字路口北侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
-                    imageUrl: './strats/ziyan/tiles-south-cw.png',
-                    mask: 'radial-gradient(circle at 18.5% 21.2%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '回旋式波动炮-逆时针',
-                    description: '你在危险区：\n优先级次于T往安全区走',
-                    imageUrl: './strats/ziyan/tiles-south-ccw.png',
-                    mask: 'radial-gradient(circle at 68.8% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
                     mechanic: '换线',
                     description: '十字路口格子的北侧格子',
                     imageUrl: './strats/ziyan/tiles-southwest-swap.png',
                 mask: 'radial-gradient(circle at 52.7% 17.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
+            ],
+            activePivot: [
+                {
+                    mechanic: '回旋式波动炮-顺时针',
+                    description: '你在安全区： 去十字路口北侧的格子准备领跑；激光开动后跟着激光往前走一个格子',
+                    imageUrl: './strats/ziyan/tiles-south-cw.png',
+                    mask: 'radial-gradient(circle at 18.5% 21.2%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '回旋式波动炮-逆时针',
+                    description: '你在危险区： 优先级次于T往安全区走',
+                    imageUrl: './strats/ziyan/tiles-south-ccw.png',
+                    mask: 'radial-gradient(circle at 68.8% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
             swapStrats: [
@@ -9507,19 +9536,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 85.6% 61.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 38.1% 13.8%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 84.8% 61.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 49.8% 35.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 35.4% 50.1%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 47.6% 36.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.9% 24.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.6% 70.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.2% 26.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -9529,19 +9558,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 83.9% 36.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 85.1% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 54.9% 84.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.9% 42.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 37.1% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 49.6% 61.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.7% 29.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.4% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.8% 75.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -9559,9 +9588,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-brambles-pre.png',
                     mask: 'radial-gradient(circle at 84.4% 59.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9576,22 +9609,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 61.7% 29.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子的北侧格子',
+                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
+                mask: 'radial-gradient(circle at 47.3% 17.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在危险区：\n优先级次于T往安全区走',
+                    description: '你在危险区： 优先级次于T往安全区走',
                     imageUrl: './strats/ziyan/tiles-south-cw.png',
                     mask: 'radial-gradient(circle at 31.2% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在安全区：\n去十字路口北侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
+                    description: '你在安全区： 去十字路口北侧的格子准备领跑；激光开动后跟着激光往前走一个格子',
                     imageUrl: './strats/ziyan/tiles-south-ccw.png',
                     mask: 'radial-gradient(circle at 81.5% 21.2%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子的北侧格子',
-                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
-                mask: 'radial-gradient(circle at 47.3% 17.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -9642,19 +9677,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 15.9% 44.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 15.2% 45.6%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 60.3% 13.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 65.2% 50.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.2% 24.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.2% 70.0%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 48.8% 26.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
@@ -9664,19 +9699,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 62.3% 83.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 61.8% 85.9%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 14.2% 53.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 63.0% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.5% 61.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.8% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 49.4% 75.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -9694,9 +9729,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-brambles-pre.png',
                     mask: 'radial-gradient(circle at 16.5% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9709,24 +9748,26 @@ const ziyanStrat: Strat = {
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
                     mask: 'radial-gradient(circle at 38.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                },                
-                {
-                    mechanic: '回旋式波动炮-顺时针',
-                    description: '你在危险区：\n优先级最后往安全区走',
-                    imageUrl: './strats/ziyan/tiles-north-cw.png',
-                    mask: 'radial-gradient(circle at 59.4% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '回旋式波动炮-逆时针',
-                    description: '你在安全区：\n去十字路口南侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
-                    imageUrl: './strats/ziyan/tiles-north-ccw.png',
-                    mask: 'radial-gradient(circle at 18.7% 80.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '换线',
                     description: '十字路口南侧的格子',
                     imageUrl: './strats/ziyan/tiles-northwest-swap.png',
                     mask: 'radial-gradient(circle at 52.1% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[                
+                {
+                    mechanic: '回旋式波动炮-顺时针',
+                    description: '你在危险区： 优先级最后往安全区走',
+                    imageUrl: './strats/ziyan/tiles-north-cw.png',
+                    mask: 'radial-gradient(circle at 59.4% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
+                },
+                {
+                    mechanic: '回旋式波动炮-逆时针',
+                    description: '你在安全区： 去十字路口南侧的格子准备领跑；激光开动后跟着激光往前走一个格子',
+                    imageUrl: './strats/ziyan/tiles-north-ccw.png',
+                    mask: 'radial-gradient(circle at 18.7% 80.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
@@ -9777,19 +9818,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 35.2% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 38.1% 13.8%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 84.8% 61.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 35.4% 50.1%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 47.6% 36.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.6% 70.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.2% 26.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -9799,19 +9840,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 54.4% 84.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 85.1% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 54.9% 84.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 37.1% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 49.6% 61.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.9% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.4% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.8% 75.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -9829,9 +9870,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-brambles-pre.png',
                     mask: 'radial-gradient(circle at 83.5% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9846,22 +9891,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 62.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口南侧的格子',
+                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
+                    mask: 'radial-gradient(circle at 49.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在安全区：\n去十字路口南侧的格子准备领跑\n激光开动后跟着激光往前走一个格子',
+                    description: '你在安全区： 去十字路口南侧的格子准备领跑；激光开动后跟着激光往前走一个格子',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
                     mask: 'radial-gradient(circle at 81.3% 80.9%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在危险区：\n优先级最后往安全区走',
+                    description: '你在危险区： 优先级最后往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
                     mask: 'radial-gradient(circle at 39.6% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口南侧的格子',
-                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
-                    mask: 'radial-gradient(circle at 49.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -9912,20 +9959,20 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 62.3% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 15.2% 45.6%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 60.3% 13.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 65.2% 50.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 38.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                },                
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.2% 70.0%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 48.8% 26.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
             thirdSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
@@ -9934,19 +9981,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 14.3% 54.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 61.8% 85.9%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 14.2% 53.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 63.0% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.5% 61.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 38.1% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.8% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 49.4% 75.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -9964,9 +10011,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-brambles-pre.png',
                     mask: 'radial-gradient(circle at 41.1% 82.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -9981,22 +10032,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 38.1% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/ziyan/tiles-southwest-swap.png',
+                mask: 'radial-gradient(circle at 52.7% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在安全区：\n去垂直方向的突起',
+                    description: '你在安全区： 去垂直方向的突起',
                     imageUrl: './strats/ziyan/tiles-south-cw.png',
                     mask: 'radial-gradient(circle at 18.7% 83.3%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在危险区：\n优先级最低往安全区走',
+                    description: '你在危险区： 优先级最低往安全区走',
                     imageUrl: './strats/ziyan/tiles-south-ccw.png',
                     mask: 'radial-gradient(circle at 59.4% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子上',
-                    imageUrl: './strats/ziyan/tiles-southwest-swap.png',
-                mask: 'radial-gradient(circle at 52.7% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了东侧的平台上！现在怎么站?",
@@ -10047,19 +10100,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 35.2% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 38.1% 13.8%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 84.8% 61.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-wc.png',
-                    mask: 'radial-gradient(circle at 33.1% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-wc.png',
+                    mask: 'radial-gradient(circle at 35.4% 50.1%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 47.6% 36.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.6% 70.7%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.2% 26.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的东南角！现在怎么站?",
@@ -10069,19 +10122,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 54.4% 84.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 85.1% 37.4%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 54.9% 84.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-wc.png',
-                    mask: 'radial-gradient(circle at 51.1% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-wc.png',
+                    mask: 'radial-gradient(circle at 37.1% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 49.6% 61.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southeast-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 61.9% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southeast-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 52.4% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 52.8% 75.5%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -10099,9 +10152,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-brambles-pre.png',
                     mask: 'radial-gradient(circle at 58.9% 82.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -10116,22 +10173,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 61.9% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
+                mask: 'radial-gradient(circle at 47.3% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在危险区：\n优先级最低往安全区走',
+                    description: '你在危险区： 优先级最低往安全区走',
                     imageUrl: './strats/ziyan/tiles-south-cw.png',
                     mask: 'radial-gradient(circle at 40.6% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在安全区：\n去垂直方向的突起',
+                    description: '你在安全区： 去垂直方向的突起',
                     imageUrl: './strats/ziyan/tiles-south-ccw.png',
                     mask: 'radial-gradient(circle at 81.3% 83.3%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子上',
-                    imageUrl: './strats/ziyan/tiles-southeast-swap.png',
-                mask: 'radial-gradient(circle at 47.3% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -10182,20 +10241,20 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 62.3% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 15.2% 45.6%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 60.3% 13.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 65.2% 50.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 38.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                },                
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.2% 70.0%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 48.8% 26.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
             thirdSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
@@ -10204,19 +10263,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 14.3% 54.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 61.8% 85.9%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 14.2% 53.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 63.0% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.5% 61.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 38.1% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.8% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 49.4% 75.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -10311,14 +10370,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 70.0% 49.6%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
@@ -10328,21 +10387,21 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 81.0% 45.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 84.5% 45.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 79.2% 33.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 70.1% 52.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
-            ]
+            ],
         },
         {
             alliance: 'C',
@@ -10358,9 +10417,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-brambles-pre.png',
                     mask: 'radial-gradient(circle at 35% 38%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -10375,22 +10438,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 37% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子的西侧格子',
+                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
+                mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在安全区：\n去水平方向的突起',
+                    description: '你在安全区： 去水平方向的突起',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
                     mask: 'radial-gradient(circle at 93.8% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在危险区：\n优先级最高往安全区走',
+                    description: '你在危险区： 优先级最高往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
                     mask: 'radial-gradient(circle at 18.8% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子的西侧格子',
-                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
-                mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -10447,14 +10512,14 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 72.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 42.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 70.0% 49.6%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
@@ -10464,21 +10529,21 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 81.0% 45.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 84.5% 45.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 82.7% 27.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 79.2% 33.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 62.5% 50%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 70.1% 52.2%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
-            ]
+            ],
         },
         {
             alliance: 'C',
@@ -10494,9 +10559,13 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '种子弹预站位',
-                    description: '放置优先级: H > D > T',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-brambles-pre.png',
                     mask: 'radial-gradient(circle at 58.9% 17.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+                {
+                    mechanic: '种子弹放置',
+                    description: '\n\n优先级: H > D > T',
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -10511,22 +10580,24 @@ const ziyanStrat: Strat = {
                     mask: 'radial-gradient(circle at 61.9% 24.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
                 {
+                    mechanic: '换线',
+                    description: '十字路口格子上',
+                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
+                mask: 'radial-gradient(circle at 47.3% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                },
+            ],
+            activePivot:[
+                {
                     mechanic: '回旋式波动炮-顺时针',
-                    description: '你在安全区：\n去垂直方向的突起',
+                    description: '你在安全区： 去垂直方向的突起',
                     imageUrl: './strats/ziyan/tiles-north-cw.png',
                     mask: 'radial-gradient(circle at 81.3% 16.7%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
                 },
                 {
                     mechanic: '回旋式波动炮-逆时针',
-                    description: '你在危险区：\n优先级次于T往安全区走',
+                    description: '你在危险区： 优先级次于T往安全区走',
                     imageUrl: './strats/ziyan/tiles-north-ccw.png',
                     mask: 'radial-gradient(circle at 31.3% 50%, black 7%, rgba(0, 0, 0, 0.2) 7%)'
-                },
-                {
-                    mechanic: '换线',
-                    description: '十字路口格子上',
-                    imageUrl: './strats/ziyan/tiles-northeast-swap.png',
-                mask: 'radial-gradient(circle at 47.3% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
@@ -10577,19 +10648,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 15.9% 44.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 15.2% 45.6%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 60.3% 13.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 65.2% 50.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.2% 24.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.2% 70.0%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 48.8% 26.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
@@ -10599,19 +10670,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 62.3% 83.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 61.8% 85.9%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 14.2% 53.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 63.0% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.5% 61.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.8% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 49.4% 75.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -10701,19 +10772,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 15.9% 44.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 15.2% 45.6%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 60.3% 13.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 49.2% 35.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 65.2% 50.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 37.2% 24.3%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.2% 70.0%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 48.8% 26.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
@@ -10723,19 +10794,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 62.3% 83.4%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 61.8% 85.9%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 14.2% 53.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.2% 43.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 63.0% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.5% 61.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 36.4% 29.1%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.8% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 49.4% 75.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
@@ -10825,20 +10896,20 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 62.3% 15.0%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 15.2% 45.6%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 60.3% 13.7%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 66.9% 55.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
+                    mask: 'radial-gradient(circle at 65.2% 50.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-northwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 38.0% 64.7%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
-                },                
+                    imageUrl: './strats/ziyan/postswap-tiles-northwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.2% 70.0%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 48.8% 26.4%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                },
             ],
             thirdSwapNote: "我换到了华容道的西南角！现在怎么站?",
             thirdSwapWarning:"请迅速去突起上站好（参考潜地炮预站位），优先级H≈D>T",
@@ -10847,19 +10918,19 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 14.3% 54.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 61.8% 85.9%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 14.2% 53.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-wc.png',
-                    mask: 'radial-gradient(circle at 48.9% 62.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-wc.png',
+                    mask: 'radial-gradient(circle at 63.0% 46.0%, black 12%, rgba(0, 0, 0, 0.2) 12%), radial-gradient(circle at 51.5% 61.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
                     description: '',
-                    imageUrl: './strats/ziyan/tiles-southwest-aoe-spread.png',
-                    mask: 'radial-gradient(circle at 38.1% 72.8%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
+                    imageUrl: './strats/ziyan/postswap-tiles-southwest-aoe-spread.png',
+                    mask: 'radial-gradient(circle at 49.8% 30.9%, black 10%, rgba(0, 0, 0, 0.2) 10%), radial-gradient(circle at 49.4% 75.9%, black 10%, rgba(0, 0, 0, 0.2) 10%)',
                 },
             ],
         },
