@@ -129,7 +129,7 @@
 			</div>
 			<div class="flex flex-wrap items-center justify-between my-4">
 				<div class="text-xl">{strat.notes}</div>
-				{#if strat.strats.some(strat => strat.alignmentTransforms)}
+				{#if strat.strats.some(strat => strat.alignmentTransforms)|| strat.anotherSwapStrats?.some(strat => strat.alignmentImages)}
 					<div class="content-center">
 						<RadioGroup>
 							<RadioItem bind:group={alignment} name="alignment" value={"original"}>攻略原始</RadioItem>
@@ -164,7 +164,7 @@
 											</div>
 										</aside>
 									{/if}
-									<div class="grid grid-cols-3 gap-2">
+									<div class="grid grid-cols-6 gap-2">
 										{#each strat.swapStrats as step}
 											{#key [spotlight, alignment]}
 											<div class="space-y-4" class:col-span-2={step.alignmentImages && step.alignmentImages[alignment]}>
