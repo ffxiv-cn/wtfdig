@@ -8432,7 +8432,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子上',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-swap.png',
                 mask: 'radial-gradient(circle at 52.7% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -9184,7 +9184,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的东侧格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-swap.png',
                 mask: 'radial-gradient(circle at 85% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -9326,7 +9326,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的西侧格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-swap.png',
                 mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -9468,7 +9468,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的北侧格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-swap.png',
                 mask: 'radial-gradient(circle at 52.7% 17.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -9610,7 +9610,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的北侧格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-swap.png',
                 mask: 'radial-gradient(circle at 47.3% 17.3%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -9751,7 +9751,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口南侧的格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-swap.png',
                     mask: 'radial-gradient(circle at 52.1% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -9892,7 +9892,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口南侧的格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-swap.png',
                     mask: 'radial-gradient(circle at 49.9% 82.5%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -10033,7 +10033,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子上',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southwest-swap.png',
                 mask: 'radial-gradient(circle at 52.7% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -10174,7 +10174,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子上',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-southeast-swap.png',
                 mask: 'radial-gradient(circle at 47.3% 48.2%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -10439,7 +10439,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子的西侧格子',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-swap.png',
                 mask: 'radial-gradient(circle at 15% 50%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
@@ -10581,7 +10581,7 @@ const ziyanStrat: Strat = {
                 },
                 {
                     mechanic: '换线',
-                    description: '十字路口格子上',
+                    description: '',
                     imageUrl: './strats/ziyan/tiles-northeast-swap.png',
                 mask: 'radial-gradient(circle at 47.3% 51.8%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
