@@ -48,7 +48,7 @@
 					<h2>你用哪个打法？</h2>
 					<RadioGroup>
 						<RadioItem bind:group={stratName} name="stratName" value={'ziyan'}>子言+MMW</RadioItem>
-						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>田园郡改</RadioItem>
+						<RadioItem bind:group={stratName} name="stratName" value={'idyll'}>イディル改</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'raidplan'}>Raidplan</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'codcar'}>CODCAR</RadioItem>
 						<RadioItem bind:group={stratName} name="stratName" value={'healerout'}>HealerOut</RadioItem>
@@ -129,7 +129,7 @@
 			</div>
 			<div class="flex flex-wrap items-center justify-between my-4">
 				<div class="text-xl">{strat.notes}</div>
-				{#if strat.strats.some(strat => strat.alignmentTransforms)}
+				{#if strat.strats.some(strat => strat.alignmentTransforms)|| strat.swapStrats?.some(strat => strat.alignmentImages)}
 					<div class="content-center">
 						<RadioGroup>
 							<RadioItem bind:group={alignment} name="alignment" value={"original"}>攻略原始</RadioItem>
@@ -150,8 +150,19 @@
 					</div>
 					{/key}
 				{/each}
+				{#if strat?.activePivot}
+					{#each strat.activePivot as step}
+						{#key [spotlight, alignment]}
+						<div class="space-y-4 col-span-3">
+							<div class="uppercase text-xl">{step.mechanic}</div> 
+							<div class="whitespace-pre-wrap text-l">{step.description}</div>
+							<img src={(step.alignmentImages && step.alignmentImages[alignment]) ? step.alignmentImages[alignment] : step.imageUrl} style:mask-image={getMask(step)} style:transform={step.alignmentTransforms ? step.alignmentTransforms[alignment] : step.transform} />
+						</div>
+						{/key}
+					{/each}
+				{/if}
 				{#if strat?.swapNote && strat?.swapStrats}
-					<div class="col-span-3">
+					<div class="col-span-6">
 						<Accordion class="card variant-ghost-secondary" >
 							<AccordionItem open padding="py-4 px-4">
 								<svelte:fragment slot="lead"><img width="24px" src={"./swap-icon.png"} /></svelte:fragment>
@@ -164,7 +175,7 @@
 											</div>
 										</aside>
 									{/if}
-									<div class="grid grid-cols-3 gap-2">
+									<div class="grid grid-cols-6 gap-2">
 										{#each strat.swapStrats as step}
 											{#key [spotlight, alignment]}
 											<div class="space-y-4" class:col-span-2={step.alignmentImages && step.alignmentImages[alignment]}>
