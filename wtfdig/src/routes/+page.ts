@@ -9346,7 +9346,7 @@ const ziyanStrat: Strat = {
                 },
             ],
             swapNote: "我换到了西侧的平台上！现在怎么站?",
-            swapWarning:"请迅速挑衅重新建立仇恨，T需要拉BOSS朝场外，",
+            swapWarning:"请迅速挑衅重新建立仇恨，T需要拉BOSS朝场外",
             swapStrats: [
                 {
                     mechanic: '踩塔',
@@ -9400,7 +9400,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 78.6% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -10371,7 +10371,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 78.6% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -10513,7 +10513,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 51.4% 36.9%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 78.6% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -10718,7 +10718,7 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/ziyan/platform-towers-west.png',
+                    imageUrl: './strats/ziyan/platform-towers-east.png',
                     mask: 'radial-gradient(circle at 82% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 78%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
