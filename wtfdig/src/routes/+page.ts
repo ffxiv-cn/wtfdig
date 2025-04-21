@@ -10757,7 +10757,7 @@ const ziyanStrat: Strat = {
                     mechanic: '换线',
                     description: '平台外侧',
                     imageUrl: './strats/ziyan/platform-east-swap.png',
-                    mask: 'radial-gradient(circle at 18% 77%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    mask: 'radial-gradient(circle at 82% 77%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
@@ -10881,7 +10881,7 @@ const ziyanStrat: Strat = {
                     mechanic: '换线',
                     description: '平台外侧',
                     imageUrl: './strats/ziyan/platform-east-swap.png',
-                    mask: 'radial-gradient(circle at 18% 15.4%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
+                    mask: 'radial-gradient(circle at 82% 15.4%, black 15%, rgba(0, 0, 0, 0.2) 15%)',
                     alignmentTransforms: {
                         'original': '',
                         'truenorth': '',
