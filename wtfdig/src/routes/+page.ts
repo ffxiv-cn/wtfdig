@@ -10718,7 +10718,7 @@ const ziyanStrat: Strat = {
                 {
                     mechanic: '踩塔',
                     description: '南/东',
-                    imageUrl: './strats/ziyan/platform-towers-west.png',
+                    imageUrl: './strats/ziyan/platform-towers-east.png',
                     mask: 'radial-gradient(circle at 82% 50%, black 20%, rgba(0, 0, 0, 0.2) 20%), radial-gradient(circle at 50% 78%, black 20%, rgba(0, 0, 0, 0.2) 20%)',
                     alignmentTransforms: {
                         'original': '',
