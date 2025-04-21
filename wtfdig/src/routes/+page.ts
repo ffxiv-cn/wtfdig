@@ -9400,7 +9400,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 78.6% 80%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 78.6% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -10371,7 +10371,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 78.6% 80%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 78.6% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
@@ -10513,7 +10513,7 @@ const ziyanStrat: Strat = {
                     mechanic: '凝缩式波动炮',
                     description: '',
                     imageUrl: './strats/ziyan/postswap-tiles-northwest-wc.png',
-                    mask: 'radial-gradient(circle at 78.6% 80%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 78.6% 63.6%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '分散式波动炮',
