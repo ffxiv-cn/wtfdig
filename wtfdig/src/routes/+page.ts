@@ -9394,7 +9394,7 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 78.6% 80%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 55.1% 86.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -10365,7 +10365,7 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 78.6% 80%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 55.1% 86.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
@@ -10507,7 +10507,7 @@ const ziyanStrat: Strat = {
                     mechanic: '潜地炮预站位',
                     description: '',
                     imageUrl: './strats/ziyan/tiles-northwest-chaser-pre.png',
-                    mask: 'radial-gradient(circle at 78.6% 80%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
+                    mask: 'radial-gradient(circle at 55.1% 86.1%, black 12%, rgba(0, 0, 0, 0.2) 12%)'
                 },
                 {
                     mechanic: '凝缩式波动炮',
